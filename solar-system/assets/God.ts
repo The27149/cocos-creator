@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, Prefab, instantiate, Vec3, v3, Camera } from 'cc';
 import { Ball } from './ball/scripts/Ball';
 import { Ship } from './ship/Ship';
+import { Eye } from './ship/Eye';
 const { ccclass, property } = _decorator;
 
 export interface IBallParam {
@@ -48,15 +49,15 @@ export class God extends Component {
                 diam: 6.96e8,
                 weight: 1e11,
                 pos: v3(0),
-                v0: v3(0),
+                v0: v3(0, -1, 0),
             },
             {
                 name: 'earth',
                 id: 2,
                 diam: 6.371e6,
                 weight: 1e11,
-                pos: v3(3, 0, 0),
-                v0: v3(0, 2, 0)
+                pos: v3(4, 0, 0),
+                v0: v3(0, 1, 0)
             }
             // {
             //     name: 'sun',
@@ -91,7 +92,7 @@ export class God extends Component {
         let shipNode = instantiate(this.shipPre);
         shipNode.parent = this.space;
         let ship = shipNode.getComponent(Ship);
-        ship.init(this.mainCamera);
+        ship.init(this.mainCamera.getComponent(Eye));
     }
 
     update(deltaTime: number) {
