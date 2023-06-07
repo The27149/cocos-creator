@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, Prefab, instantiate, Vec3, v3, Camera } from 'cc';
-import { Ball } from './ball/scripts/Ball';
-import { Ship } from './ship/Ship';
-import { Eye } from './ship/Eye';
+import { Ball } from '../ball/scripts/Ball';
+import { Ship } from '../ship/Ship';
+import { Eye } from '../ship/Eye';
 const { ccclass, property } = _decorator;
 
 export interface IBallParam {
@@ -58,7 +58,15 @@ export class God extends Component {
                 weight: 1e11,
                 pos: v3(4, 0, 0),
                 v0: v3(0, 1, 0)
-            }
+            },
+            // {
+            //     name: 'fire',
+            //     id: 3,
+            //     diam: 6.371e6,
+            //     weight: 1e11,
+            //     pos: v3(4, 6, 0),
+            //     v0: v3(1, 0, 0)
+            // }
             // {
             //     name: 'sun',
             //     id: 1,

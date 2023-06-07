@@ -15,10 +15,11 @@ export class Motion extends Component {
 
     update(dt: number) {
         if (!this.isMoveOpen) return;
-        if (this.f.length() === 0) return;
-        this.a = this.f.multiplyScalar(1 / this.m);
-        let dv = this.a.clone().multiplyScalar(dt);
-        this.v.add(dv);
+        if (this.f.length() !== 0) {
+            this.a = this.f.multiplyScalar(1 / this.m);
+            let dv = this.a.clone().multiplyScalar(dt);
+            this.v.add(dv);
+        }
         let dp = this.v.clone().multiplyScalar(dt);
         this.p.add(dp);
         this.node.setPosition(this.p);

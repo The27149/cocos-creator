@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, v3, Vec3 } from 'cc';
-import { God, IBallParam } from '../../God';
 import { Motion } from '../../common/Motion';
+import { God, IBallParam } from '../../common/God';
 const { ccclass, property } = _decorator;
 
 @ccclass('Ball')
