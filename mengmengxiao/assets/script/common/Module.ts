@@ -19,7 +19,6 @@ export default class Module extends cc.Component {
 
     protected onLoad() {
         let name = cc.js.getClassName(this);
-        console.log('%c >>>>>>>>>>>', 'color: orange', name);
         if (!Module.map.get(name)) {
             Module.map.set(name, this);
         } else {

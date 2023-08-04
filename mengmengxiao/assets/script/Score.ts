@@ -1,4 +1,5 @@
 import Game from "./Game";
+import Prop from "./Prop";
 import Task from "./Task";
 import { GConst, Global } from "./common/Global";
 import Module from "./common/Module";
@@ -39,8 +40,8 @@ export default class Score extends Module {
     /**整局游戏开始 */
     public gameStart() {
         this.currentScore = 0;
+        Module.get(Prop).reset();
         this.levelStart(1);
-        this.updateTopScore();
     }
 
     /**新关卡开始 */
@@ -60,6 +61,7 @@ export default class Score extends Module {
         this.newLevelNode.active = true;
         this.newLevelNode.getChildByName(`level`).getComponent(cc.Label).string = v.toString();
         this.newLevelNode.getChildByName(`targetScore`).getComponent(cc.Label).string = this.targetScore.toString();
+        Global.ins.isActioning = true;
         let action = cc.sequence(cc.fadeIn(0.5), cc.delayTime(1), cc.fadeOut(1), cc.callFunc(() => {
             this.newLevelNode.active = false;
             Module.get(Game).createGrids();
@@ -76,6 +78,9 @@ export default class Score extends Module {
             cc.sys.localStorage.setItem(GConst.topScoreStorage, JSON.stringify(this.currentScore));
             this.topScore = this.currentScore;
         }
+    }
+
+    public updateRank() {
         let x1 = 500 / (this.level - 0.5) ** 2,
             x2 = 500 / (this.level + 0.5) ** 2;
         this.rank = Utils.randomInt(x1, x2);
@@ -109,6 +114,7 @@ export default class Score extends Module {
     public set currentScore(v: number) {
         this._currentScore = v;
         this.currentLabel.string = v.toString();
+        this.updateTopScore();
     }
 
     /**最高分 */

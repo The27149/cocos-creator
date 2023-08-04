@@ -1,7 +1,8 @@
 import Game from "./Game";
 import Grid from "./Grid";
 import Score from "./Score";
-import { Global, ITask, ResPath } from "./common/Global";
+import SoundMgr from "./SoundMgr";
+import { GConst, Global, ITask, ResPath, SoundPath } from "./common/Global";
 import Module from "./common/Module";
 import Move from "./common/Move";
 import Utils from "./common/Utils";
@@ -81,6 +82,7 @@ export default class Task extends Module {
         let task = this.taskList[0];
         if (grids[0].type !== task.type) return;
         if (grids.length >= task.count) {
+            Module.get(SoundMgr).playEffect(SoundPath.task);
             this.playRewardAni(task.reward, this.task1Node.getChildByName(`reward`));
         };
     }
@@ -90,6 +92,7 @@ export default class Task extends Module {
         let task = this.taskList[1];
         let num = this.remainInfo[task.type - 1];
         if (Number(num) <= task.count) {
+            Module.get(SoundMgr).playEffect(SoundPath.task);
             this.playRewardAni(task.reward, this.task2Node.getChildByName(`reward`));
         }
     }
@@ -99,6 +102,7 @@ export default class Task extends Module {
         let task = this.taskList[2];
         let total = this.remainInfo.reduce((pre, item) => pre + item, 0);
         if (total <= task.count) {
+            Module.get(SoundMgr).playEffect(SoundPath.task);
             this.playRewardAni(task.reward, this.task3Node.getChildByName(`reward`));
         }
     }
@@ -123,7 +127,7 @@ export default class Task extends Module {
         let node = gameMgr.rewardFactory.get();
         node.parent = gameMgr.effectNode;
         node.getComponent(cc.Label).string = `/` + score.toString();
-        let move = Move.getInstance().setParams(node, startNode, scoreMgr.currentLabel.node, 500);
+        let move = Move.getInstance().setParams(node, startNode, scoreMgr.currentLabel.node, GConst.scoreAniTime * 1000);
         move.run(() => {
             node.destroy();
             scoreMgr.currentScore += score;

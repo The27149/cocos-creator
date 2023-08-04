@@ -1,4 +1,5 @@
 import Grid from "./Grid";
+import Prop from "./Prop";
 import Score from "./Score";
 import SoundMgr from "./SoundMgr";
 import Task from "./Task";
@@ -47,14 +48,13 @@ export default class Game extends Module {
     public validList: Grid[] = [];
     /**每次搜索过程 保存已经搜过的 */
     public checkedList: Grid[] = [];
-    public canClick: boolean = true;
 
 
     protected onLoad(): void {
         super.onLoad();
         this.gameOverNode.active = false;
         this.reStartBtn.node.on('click', this.onRestart, this);
-        this.refreshBtn.node.on('click', this.onClickFresh, this);
+        this.refreshBtn.node.on('click', this.onRestart, this);
         this.gridFactory = new NodeFactory().init(this.gridPre);
         this.addScoreFactory = new NodeFactory().init(this.addScorePre);
         this.rewardFactory = new NodeFactory().init(this.rewardPre);
@@ -76,9 +76,13 @@ export default class Game extends Module {
                 col[j] = grid;
             }
         }
-        Global.ins.canfreshGrids = true;
+        Global.ins.canRestart = true;
         if (this.eliminateOverCheck()) {
-            this.refreshGrids();
+            this.reStartGrids();
+        } else {
+            setTimeout(() => {
+                Global.ins.isActioning = false;
+            }, GConst.gridCreatTime * 1000);
         }
     }
 
@@ -114,6 +118,7 @@ export default class Game extends Module {
 
     /** 消除 */
     public eliminate() {
+        Global.ins.isActioning = true;
         for (let i = 0; i < this.gridList.length; i++) {
             let col = this.gridList[i];
             for (let j = 0; j < col.length; j++) {
@@ -157,7 +162,7 @@ export default class Game extends Module {
             }
         }
         setTimeout(() => {
-            this.canClick = true;
+            Global.ins.isActioning = false;
             if (this.eliminateOverCheck()) {
                 Utils.log('消除结束');
                 this.levelOver();
@@ -183,20 +188,25 @@ export default class Game extends Module {
     private levelOver() {
         let task = Module.get(Task);
         task.checkRemainGrids();
-        let scoreMgr = Module.get(Score);
-        scoreMgr.updateTopScore();
-        if (scoreMgr.currentScore >= scoreMgr.targetScore) {
-            this.destroyAll(() => {
-                scoreMgr.levelStart(scoreMgr.level + 1);
-            });
-        } else {
-            Utils.log('游戏结束');
-            this.gameOverNode.active = true;
-        }
+        //等待任务清算完成再比较分数
+        setTimeout(() => {
+            let scoreMgr = Module.get(Score);
+            scoreMgr.updateRank();
+            if (scoreMgr.currentScore >= scoreMgr.targetScore) {
+                this.destroyAll(() => {
+                    scoreMgr.levelStart(scoreMgr.level + 1);
+                });
+            } else {
+                Utils.log('游戏结束');
+                Global.ins.canRestart = true;
+                this.gameOverNode.active = true;
+            }
+        }, GConst.scoreAniTime * 1000 + 100);
     }
 
     /**移除当前剩余的所有格子 */
     private destroyAll(call?: Function) {
+        Module.get(SoundMgr).playEffect(SoundPath.bubble);
         let grids = Utils.flat(this.gridList);
         grids.forEach(item => item.disappear());
         setTimeout(() => {
@@ -209,20 +219,23 @@ export default class Game extends Module {
     private onRestart() {
         Module.get(SoundMgr).playEffect(SoundPath.button);
         this.gameOverNode.active = false;
+        this.reStartGrids();
+    }
+
+    /**重开 */
+    private reStartGrids() {
+        if (!Global.ins.canRestart) return;
+        Global.ins.canRestart = false;
         this.destroyAll(() => {
             Module.get(Score).gameStart();
         })
     }
 
-    private onClickFresh() {
-        Module.get(SoundMgr).playEffect(SoundPath.button);
-        this.refreshGrids();
-    }
-
-    /**刷新格子 */
-    private refreshGrids() {
-        if (!Global.ins.canfreshGrids) return;
-        Global.ins.canfreshGrids = false;
+    /**只刷新格子 */
+    public refreshGrids() {
+        if (Global.ins.isActioning) return;
+        Global.ins.isActioning = true;
+        Module.get(Prop).refreshCount--;
         this.destroyAll(() => {
             this.createGrids();
         })
