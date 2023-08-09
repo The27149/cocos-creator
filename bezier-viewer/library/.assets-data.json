@@ -1,0 +1,150 @@
+{
+  "98fb3a72-f023-4433-a690-e3e1da4dae82": {
+    "url": "db://assets/scenes",
+    "value": {}
+  },
+  "738410d0-e9e8-4d64-8c11-f5f6ebdc5632": {
+    "url": "db://assets/textures",
+    "value": {}
+  },
+  "36a8dc63-2339-4348-a421-c340566e25ce": {
+    "url": "db://assets/scripts",
+    "value": {}
+  },
+  "698092ed-199f-4801-ae30-e325ca3ec796": {
+    "url": "db://assets/scenes/main.scene",
+    "value": {
+      "depends": [
+        "698092ed-199f-4801-ae30-e325ca3ec796",
+        "33835340-002b-4972-9579-17a91ce1a7d5",
+        "70d76ddc-b858-46bd-952f-d5941f9367f1@f9941",
+        "6be7ca92-208c-4e10-966a-b0e391301f8a@f9941",
+        "6be7ca92-208c-4e10-966a-b0e391301f8a@f9941",
+        "70d76ddc-b858-46bd-952f-d5941f9367f1@f9941",
+        "70d76ddc-b858-46bd-952f-d5941f9367f1@f9941",
+        "70d76ddc-b858-46bd-952f-d5941f9367f1@f9941",
+        "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624@f9941",
+        "698092ed-199f-4801-ae30-e325ca3ec796"
+      ]
+    }
+  },
+  "bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301": {
+    "url": "db://assets/scripts/Paper.ts",
+    "value": {}
+  },
+  "0cc7a1c1-2ef0-4021-91bc-106794415f3a": {
+    "url": "db://assets/textures/yuandian.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0cc7a1c1-2ef0-4021-91bc-106794415f3a@6c48a": {
+    "url": "db://assets/textures/yuandian.png@6c48a",
+    "value": {
+      "depends": [
+        "0cc7a1c1-2ef0-4021-91bc-106794415f3a"
+      ]
+    }
+  },
+  "0cc7a1c1-2ef0-4021-91bc-106794415f3a@f9941": {
+    "url": "db://assets/textures/yuandian.png@f9941",
+    "value": {
+      "depends": [
+        "0cc7a1c1-2ef0-4021-91bc-106794415f3a@6c48a"
+      ]
+    }
+  },
+  "5af539f8-ec63-4690-8f0e-778fe200d12b": {
+    "url": "db://assets/prefabs",
+    "value": {}
+  },
+  "33835340-002b-4972-9579-17a91ce1a7d5": {
+    "url": "db://assets/prefabs/point.prefab",
+    "value": {
+      "depends": [
+        "0cc7a1c1-2ef0-4021-91bc-106794415f3a@f9941",
+        "0cc7a1c1-2ef0-4021-91bc-106794415f3a@f9941"
+      ]
+    }
+  },
+  "a687974f-99eb-4a6f-9113-d7c78f51e7ec": {
+    "url": "db://assets/scripts/NodeFactory.ts",
+    "value": {}
+  },
+  "7cc69ad6-f631-4f24-9ed0-35e7256c4b9b": {
+    "url": "db://assets/scripts/Factory.ts",
+    "value": {}
+  },
+  "fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e": {
+    "url": "db://assets/scripts/Point.ts",
+    "value": {}
+  },
+  "70d76ddc-b858-46bd-952f-d5941f9367f1": {
+    "url": "db://assets/textures/add.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "70d76ddc-b858-46bd-952f-d5941f9367f1@6c48a": {
+    "url": "db://assets/textures/add.png@6c48a",
+    "value": {
+      "depends": [
+        "70d76ddc-b858-46bd-952f-d5941f9367f1"
+      ]
+    }
+  },
+  "70d76ddc-b858-46bd-952f-d5941f9367f1@f9941": {
+    "url": "db://assets/textures/add.png@f9941",
+    "value": {
+      "depends": [
+        "70d76ddc-b858-46bd-952f-d5941f9367f1@6c48a"
+      ]
+    }
+  },
+  "6be7ca92-208c-4e10-966a-b0e391301f8a": {
+    "url": "db://assets/textures/reduce.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6be7ca92-208c-4e10-966a-b0e391301f8a@6c48a": {
+    "url": "db://assets/textures/reduce.png@6c48a",
+    "value": {
+      "depends": [
+        "6be7ca92-208c-4e10-966a-b0e391301f8a"
+      ]
+    }
+  },
+  "6be7ca92-208c-4e10-966a-b0e391301f8a@f9941": {
+    "url": "db://assets/textures/reduce.png@f9941",
+    "value": {
+      "depends": [
+        "6be7ca92-208c-4e10-966a-b0e391301f8a@6c48a"
+      ]
+    }
+  },
+  "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624": {
+    "url": "db://assets/textures/help_room.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624@6c48a": {
+    "url": "db://assets/textures/help_room.png@6c48a",
+    "value": {
+      "depends": [
+        "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624"
+      ]
+    }
+  },
+  "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624@f9941": {
+    "url": "db://assets/textures/help_room.png@f9941",
+    "value": {
+      "depends": [
+        "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624@6c48a"
+      ]
+    }
+  }
+}

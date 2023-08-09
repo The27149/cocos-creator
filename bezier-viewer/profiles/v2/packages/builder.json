@@ -1,0 +1,67 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "name": "bezier-viewer",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1676023940162": {
+        "type": "build",
+        "id": "1676023940162",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-2-10 18:28:10 Build success in 9550 ms!",
+        "options": {
+          "name": "project",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "replaceSplashScreen": false,
+          "startScene": "698092ed-199f-4801-ae30-e325ca3ec796",
+          "outputName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/main.scene",
+              "uuid": "698092ed-199f-4801-ae30-e325ca3ec796",
+              "inBundle": false
+            }
+          ],
+          "web-desktop": [],
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "__version__": "1.0.1"
+            },
+            "cocos-service": {
+              "configID": "626e68",
+              "services": []
+            }
+          },
+          "__version__": "1.3.3",
+          "web-mobile": []
+        },
+        "time": "2023-2-10 18:28",
+        "dirty": false
+      }
+    }
+  }
+}

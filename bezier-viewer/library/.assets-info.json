@@ -1,0 +1,178 @@
+{
+  "E:\\personal\\bezier-viewer\\project\\assets\\scenes.meta": {
+    "time": 1675398018075.296
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scenes": {
+    "time": 1675398068864.6404,
+    "uuid": "98fb3a72-f023-4433-a690-e3e1da4dae82",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scenes\\main.scene.meta": {
+    "time": 1675398047970.709
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scenes\\main.scene": {
+    "time": 1675670811064.7476,
+    "uuid": "698092ed-199f-4801-ae30-e325ca3ec796",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scripts.meta": {
+    "time": 1675398021360.0066
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scripts": {
+    "time": 1675667586827.2922,
+    "uuid": "36a8dc63-2339-4348-a421-c340566e25ce",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\textures.meta": {
+    "time": 1675398021139.9277
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\textures": {
+    "time": 1675651213508.924,
+    "uuid": "738410d0-e9e8-4d64-8c11-f5f6ebdc5632",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scripts\\Paper.ts.meta": {
+    "time": 1675418390401.4668
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scripts\\Paper.ts": {
+    "time": 1675671229600.0447,
+    "uuid": "bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\textures\\yuandian.png.meta": {
+    "time": 1675651213554.9265
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\textures\\yuandian.png": {
+    "time": 1670206672073.6172,
+    "uuid": "0cc7a1c1-2ef0-4021-91bc-106794415f3a",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\prefabs.meta": {
+    "time": 1675651332498.1472
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\prefabs": {
+    "time": 1675651336089.1582,
+    "uuid": "5af539f8-ec63-4690-8f0e-778fe200d12b",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\prefabs\\yuandian.prefab.meta": {
+    "time": 1675651336105.1536
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\prefabs\\yuandian.prefab": {
+    "time": 1675667118400.732,
+    "uuid": "33835340-002b-4972-9579-17a91ce1a7d5",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scripts\\NodeFactory.ts.meta": {
+    "time": 1675651522459.6516
+  },
+  "E:\\personal\\bezier-viewer\\project\\assets\\scripts\\NodeFactory.ts": {
+    "time": 1675667598080.876,
+    "uuid": "a687974f-99eb-4a6f-9113-d7c78f51e7ec",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\prefabs": {
+    "time": 1675936861146.6978,
+    "uuid": "5af539f8-ec63-4690-8f0e-778fe200d12b",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scenes": {
+    "time": 1676018518085.5786,
+    "uuid": "98fb3a72-f023-4433-a690-e3e1da4dae82",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts": {
+    "time": 1675936151449.1477,
+    "uuid": "36a8dc63-2339-4348-a421-c340566e25ce",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures": {
+    "time": 1676022463272.7495,
+    "uuid": "738410d0-e9e8-4d64-8c11-f5f6ebdc5632",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts\\NodeFactory.ts": {
+    "time": 1675667598080.876,
+    "uuid": "a687974f-99eb-4a6f-9113-d7c78f51e7ec",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts\\Paper.ts": {
+    "time": 1685001867056.9885,
+    "uuid": "bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\prefabs.meta": {
+    "time": 1675651332498.1472
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scenes.meta": {
+    "time": 1675398018075.296
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts.meta": {
+    "time": 1675398021360.0066
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures.meta": {
+    "time": 1675398021139.9277
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts\\NodeFactory.ts.meta": {
+    "time": 1675651522459.6516
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts\\Paper.ts.meta": {
+    "time": 1675418390401.4668
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scenes\\main.scene": {
+    "time": 1685001932535.5571,
+    "uuid": "698092ed-199f-4801-ae30-e325ca3ec796",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\yuandian.png": {
+    "time": 1670206672073.6172,
+    "uuid": "0cc7a1c1-2ef0-4021-91bc-106794415f3a",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scenes\\main.scene.meta": {
+    "time": 1675398047970.709
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\yuandian.png.meta": {
+    "time": 1675651213554.9265
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts\\Point.ts.meta": {
+    "time": 1675936141467.239
+  },
+  "E:\\personal\\bezier-viewer\\assets\\scripts\\Point.ts": {
+    "time": 1676019696940.8054,
+    "uuid": "fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\prefabs\\point.prefab.meta": {
+    "time": 1675936861159.696
+  },
+  "E:\\personal\\bezier-viewer\\assets\\prefabs\\point.prefab": {
+    "time": 1676019599169.1392,
+    "uuid": "33835340-002b-4972-9579-17a91ce1a7d5",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\add.png.meta": {
+    "time": 1676015252474.8323
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\add.png": {
+    "time": 1652948192199.1294,
+    "uuid": "70d76ddc-b858-46bd-952f-d5941f9367f1",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\reduce.png.meta": {
+    "time": 1676015259236.559
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\reduce.png": {
+    "time": 1652948190582.002,
+    "uuid": "6be7ca92-208c-4e10-966a-b0e391301f8a",
+    "missing": false
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\help_room.png.meta": {
+    "time": 1676022463310.7576
+  },
+  "E:\\personal\\bezier-viewer\\assets\\textures\\help_room.png": {
+    "time": 1652948192189.1257,
+    "uuid": "bbfdfb3c-02f3-4600-840e-bb9c5c1ab624",
+    "missing": false
+  }
+}

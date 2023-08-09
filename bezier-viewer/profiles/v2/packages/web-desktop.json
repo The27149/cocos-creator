@@ -1,0 +1,8 @@
+{
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "name": "bezier-viewer"
+  }
+}

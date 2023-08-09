@@ -1,0 +1,57 @@
+{
+  "imports": {
+    "cce:/internal/x/cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js",
+    "cce:/internal/x/prerequisite-imports": "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js",
+    "file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts": "./chunks/cd/cd5d9cb5c6202bc7648f3d50e4b236f3077f59a9.js",
+    "file:///E:/personal/bezier-viewer/assets/scripts/Point.ts": "./chunks/fe/fef14ed5318dccfa6912759325c995f784df0fe9.js",
+    "file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts": "./chunks/a6/a65a551773e5953bb3fe81821243d2f97820cc77.js"
+  },
+  "scopes": {
+    "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js": {
+      "__unresolved_0": "cce:/internal/x/cc-fu/base",
+      "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
+      "__unresolved_10": "cce:/internal/x/cc-fu/physics-framework",
+      "__unresolved_11": "cce:/internal/x/cc-fu/physics-2d-framework",
+      "__unresolved_12": "cce:/internal/x/cc-fu/intersection-2d",
+      "__unresolved_13": "cce:/internal/x/cc-fu/primitive",
+      "__unresolved_14": "cce:/internal/x/cc-fu/profiler",
+      "__unresolved_15": "cce:/internal/x/cc-fu/geometry-renderer",
+      "__unresolved_16": "cce:/internal/x/cc-fu/audio",
+      "__unresolved_17": "cce:/internal/x/cc-fu/video",
+      "__unresolved_18": "cce:/internal/x/cc-fu/xr",
+      "__unresolved_19": "cce:/internal/x/cc-fu/terrain",
+      "__unresolved_2": "cce:/internal/x/cc-fu/gfx-webgl2",
+      "__unresolved_20": "cce:/internal/x/cc-fu/webview",
+      "__unresolved_21": "cce:/internal/x/cc-fu/tween",
+      "__unresolved_22": "cce:/internal/x/cc-fu/tiled-map",
+      "__unresolved_23": "cce:/internal/x/cc-fu/spine",
+      "__unresolved_24": "cce:/internal/x/cc-fu/dragon-bones",
+      "__unresolved_25": "cce:/internal/x/cc-fu/custom-pipeline",
+      "__unresolved_3": "cce:/internal/x/cc-fu/3d",
+      "__unresolved_4": "cce:/internal/x/cc-fu/animation",
+      "__unresolved_5": "cce:/internal/x/cc-fu/skeletal-animation",
+      "__unresolved_6": "cce:/internal/x/cc-fu/2d",
+      "__unresolved_7": "cce:/internal/x/cc-fu/ui",
+      "__unresolved_8": "cce:/internal/x/cc-fu/particle",
+      "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
+    },
+    "./chunks/b0/b04882f6528f528d23c15a1a07354592145c07ab.js": {
+      "__unresolved_0": "./chunks/cd/cd5d9cb5c6202bc7648f3d50e4b236f3077f59a9.js",
+      "__unresolved_1": "./chunks/a6/a65a551773e5953bb3fe81821243d2f97820cc77.js",
+      "__unresolved_2": "./chunks/fe/fef14ed5318dccfa6912759325c995f784df0fe9.js"
+    },
+    "./chunks/fe/fef14ed5318dccfa6912759325c995f784df0fe9.js": {
+      "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
+      "cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js"
+    },
+    "./chunks/a6/a65a551773e5953bb3fe81821243d2f97820cc77.js": {
+      "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
+      "__unresolved_1": "./chunks/cd/cd5d9cb5c6202bc7648f3d50e4b236f3077f59a9.js",
+      "__unresolved_2": "./chunks/fe/fef14ed5318dccfa6912759325c995f784df0fe9.js",
+      "cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js"
+    },
+    "./chunks/cd/cd5d9cb5c6202bc7648f3d50e4b236f3077f59a9.js": {
+      "cc": "./chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js"
+    }
+  }
+}

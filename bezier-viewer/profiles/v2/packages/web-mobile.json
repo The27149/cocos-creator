@@ -1,0 +1,10 @@
+{
+  "common": {
+    "outputName": "web-mobile",
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile"
+  }
+}
