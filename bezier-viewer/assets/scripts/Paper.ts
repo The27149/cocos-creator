@@ -13,7 +13,7 @@ export class Paper extends Component {
     lineColor: Color = null;
 
     @property(CCFloat)
-    lineWidth: number = 5;
+    lineWidth: number = 10;
 
     @property(CCFloat)
     sampleNum: number = 1000;
@@ -40,7 +40,16 @@ export class Paper extends Component {
     standardBtn: Button = null;
 
     @property(Button)
+    scaleUp: Button = null;
+
+    @property(Button)
+    scaleDown: Button = null;
+
+    @property(Button)
     helpBtn: Button = null;
+
+    @property(Button)
+    helpCloseBtn: Button = null;
 
     @property(Node)
     helpContent: Node = null;
@@ -73,7 +82,10 @@ export class Paper extends Component {
         this.addCtrlPoint.node.on(Button.EventType.CLICK, this.onAddCtrl, this);
         this.removeCtrlPoint.node.on(Button.EventType.CLICK, this.onRemoveCtrl, this);
         this.standardBtn.node.on(Button.EventType.CLICK, this.onStandard, this);
+        this.scaleUp.node.on(Button.EventType.CLICK, this.onClickScaleUp, this);
+        this.scaleDown.node.on(Button.EventType.CLICK, this.onClickScaleDown, this);
         this.helpBtn.node.on(Button.EventType.CLICK, this.onClickHelp, this);
+        this.helpCloseBtn.node.on(Button.EventType.CLICK, this.onClosekHelp, this);
     }
 
     private removeEvents() {
@@ -82,7 +94,10 @@ export class Paper extends Component {
         this.addCtrlPoint.node.off(Button.EventType.CLICK, this.onAddCtrl, this);
         this.removeCtrlPoint.node.off(Button.EventType.CLICK, this.onRemoveCtrl, this);
         this.standardBtn.node.off(Button.EventType.CLICK, this.onStandard, this);
+        this.scaleUp.node.off(Button.EventType.CLICK, this.onClickScaleUp, this);
+        this.scaleDown.node.off(Button.EventType.CLICK, this.onClickScaleDown, this);
         this.helpBtn.node.off(Button.EventType.CLICK, this.onClickHelp, this);
+        this.helpCloseBtn.node.off(Button.EventType.CLICK, this.onClosekHelp, this);
     }
 
     private onTouchMove(e: EventTouch) {
@@ -94,9 +109,15 @@ export class Paper extends Component {
         // console.log('滚动：', e, e.getScrollX(), e.getScrollY());
         let long = e.getScrollY();
         //向上滚 放大
-        let v_old = this.node.scale.x;
-        let v = long > 0 ? v_old * 1.1 : v_old * 0.9;
-        this.paperScale.string = v.toString();
+        this.scalePaper(long > 0);
+    }
+
+    /**缩放纸面 */
+    private scalePaper(isUp: boolean) {
+        let v = this.node.scale.x * (isUp ? 1.1 : 0.9);
+        let vStr = v.toFixed(3);
+        v = parseFloat(vStr);
+        this.paperScale.string = vStr;
         this.node.setScale(v, v);
         this.curLineWidth = this.lineWidth * (1 / this.node.scale.x);
         this.draw();
@@ -178,13 +199,15 @@ export class Paper extends Component {
                 child = this.pointPool.getNode();
                 child.parent = this.ctrlContainer;
                 child.setSiblingIndex(i);
-                let ui = child.getComponent(UITransform);
-                ui.width = ui.height = this.curLineWidth * 5;
                 child.getComponent(Sprite).color = Color.YELLOW;
                 child.getComponent(Point).init(this);
+                let ui = child.getComponent(UITransform);
+                ui.width = ui.height = this.lineWidth * 5;
             }
             let x = points[i].x, y = points[i].y;
-            child.getComponent(Point).reset(i, x, y);
+            let point = child.getComponent(Point);
+            point.reset(i, x, y);
+            point.scaleSelf((1 / this.node.scale.x));
         }
     }
 
@@ -232,7 +255,9 @@ export class Paper extends Component {
         if (!this.curCtrlPoint) return;
         let idx = this.curCtrlPoint.index;
         let temp = this.ctrlPoints.splice(idx + 1);
-        this.ctrlPoints.push(v2());
+        let x = Math.round(this.random(-960, 960)),
+            y = Math.round(this.random(-540, 540));
+        this.ctrlPoints.push(v2(x, y));
         this.ctrlPoints.push(...temp);
         this.draw();
     }
@@ -248,6 +273,7 @@ export class Paper extends Component {
 
     /**标准化曲线 起点设置在（0, 0） */
     private onStandard() {
+        this.node.setPosition(0, 0);
         let first: Vec2 = this.ctrlPoints[0].clone();
         if (!first) return;
         for (let item of this.ctrlPoints) {
@@ -256,8 +282,20 @@ export class Paper extends Component {
         this.draw();
     }
 
+    private onClickScaleUp() {
+        this.scalePaper(true);
+    }
+
+    private onClickScaleDown() {
+        this.scalePaper(false);
+    }
+
     private onClickHelp() {
-        this.helpContent.active = !this.helpContent.active;
+        this.helpContent.active = true;
+    }
+
+    private onClosekHelp() {
+        this.helpContent.active = false;
     }
 }
 

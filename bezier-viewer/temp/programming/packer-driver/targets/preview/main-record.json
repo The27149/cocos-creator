@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 22498.93680000305,
+      "mTimestamp": 12908.791100025177,
       "chunkId": "02454ce52c24527a6d11792cfd90549c5b418480",
       "imports": [
         {
@@ -430,11 +430,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3188955.8748999834,
+      "mTimestamp": 5751457.413000107,
       "chunkId": "341ab3341f38daa5d6eb502f45f16e9d150576f5",
       "imports": [
         {
-          "value": "file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts",
+          "value": "file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -443,12 +443,12 @@
             },
             "end": {
               "line": 4,
-              "column": 72
+              "column": 79
             }
           }
         },
         {
-          "value": "file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts",
+          "value": "file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -457,12 +457,12 @@
             },
             "end": {
               "line": 5,
-              "column": 66
+              "column": 73
             }
           }
         },
         {
-          "value": "file:///E:/personal/bezier-viewer/assets/scripts/Point.ts",
+          "value": "file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -471,7 +471,7 @@
             },
             "end": {
               "line": 6,
-              "column": 66
+              "column": 73
             }
           }
         }
@@ -481,21 +481,21 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts"
+            "url": "file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts"
+            "url": "file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///E:/personal/bezier-viewer/assets/scripts/Point.ts"
+            "url": "file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts"
           },
           "messages": []
         }
@@ -695,7 +695,7 @@
       "chunkId": "7b450d8a40a1b16e5ed6954359ee97446aebbe4e"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1684998679666,
+      "mTimestamp": 1691657075025,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -968,6 +968,226 @@
         "uuid": "fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e"
       },
       "chunkId": "d61674e0bc7e1f2c5fea41f56d48bcd1770e6e28",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 126
+            },
+            "end": {
+              "line": 1,
+              "column": 130
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts": {
+      "mTimestamp": {
+        "mtime": 1675667598080.876,
+        "uuid": "a687974f-99eb-4a6f-9113-d7c78f51e7ec"
+      },
+      "chunkId": "fd8340b414cab435ae992647e025824ad4316d38",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts": {
+      "mTimestamp": {
+        "mtime": 1691661989582.948,
+        "uuid": "bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301"
+      },
+      "chunkId": "f073bcda7f9a59a59b67b6933bce5e201409cac8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 214
+            },
+            "end": {
+              "line": 1,
+              "column": 218
+            }
+          }
+        },
+        {
+          "value": "./NodeFactory",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./Point",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts": {
+      "mTimestamp": {
+        "mtime": 1691662825033.406,
+        "uuid": "fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e"
+      },
+      "chunkId": "52283ea859a1d0ae4a0db016812be7a2e323adf0",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

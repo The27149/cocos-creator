@@ -48,29 +48,40 @@ export class Point extends Component {
 
     private onTouchMove(e: EventTouch) {
         e.propagationStopped = true;
-        e.touch.getUILocation(this.touchPos);
-        this.touchPos_world.x = this.touchPos.x;
-        this.touchPos_world.y = this.touchPos.y;
-        this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(this.touchPos_world, this.touchPos_node);
-        this.node.setPosition(this.touchPos_node.x, this.touchPos_node.y);
-        this.paper.updateCtrls();
+        this.updateCtrls(e);
     }
 
     private onTouchStart() {
 
     }
 
-    private onTouchEnd() {
+    private onTouchEnd(e: EventTouch) {
+        this.updateCtrls(e, true);
+
         let last = this.paper.curCtrlPoint;
-        if (last) last.hideCheckTag();
+        if (last && last !== this) last.hideCheckTag();
         this.paper.curCtrlPoint = this;
         this.showCheckTag();
+    }
+
+    private updateCtrls(e: EventTouch, isFormat: boolean = false) {
+        e.touch.getUILocation(this.touchPos);
+        this.touchPos_world.x = this.touchPos.x;
+        this.touchPos_world.y = this.touchPos.y;
+        this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(this.touchPos_world, this.touchPos_node);
+        if (isFormat) {
+            this.touchPos_node.x = Math.round(this.touchPos_node.x)
+            this.touchPos_node.y = Math.round(this.touchPos_node.y)
+        }
+        this.node.setPosition(this.touchPos_node.x, this.touchPos_node.y);
+        this.paper.updateCtrls();
     }
 
     public reset(i: number, x: number, y: number) {
         this.index = i;
         this.node.setPosition(v3(x, y));
         this.coordinate.string = `P${i}(x:${x}, y:${y})`;
+        if (this !== this.paper.curCtrlPoint) this.hideCheckTag();
     }
 
     public showCheckTag() {
@@ -79,6 +90,10 @@ export class Point extends Component {
 
     public hideCheckTag() {
         this.checkTag.active = false;
+    }
+
+    public scaleSelf(v: number) {
+        this.node.setScale(v3(v, v, 1));
     }
 }
 

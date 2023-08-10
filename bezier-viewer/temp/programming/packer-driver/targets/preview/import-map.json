@@ -2,9 +2,9 @@
   "imports": {
     "cce:/internal/x/cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/34/341ab3341f38daa5d6eb502f45f16e9d150576f5.js",
-    "file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts": "./chunks/4f/4f2e72f7413e767051399a59e0c5b0eae9724c57.js",
-    "file:///E:/personal/bezier-viewer/assets/scripts/Point.ts": "./chunks/d6/d61674e0bc7e1f2c5fea41f56d48bcd1770e6e28.js",
-    "file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts": "./chunks/0d/0d9eca4116f8757f1bbb48f022f46a468b7fd9be.js"
+    "file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts": "./chunks/fd/fd8340b414cab435ae992647e025824ad4316d38.js",
+    "file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts": "./chunks/f0/f073bcda7f9a59a59b67b6933bce5e201409cac8.js",
+    "file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts": "./chunks/52/52283ea859a1d0ae4a0db016812be7a2e323adf0.js"
   },
   "scopes": {
     "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js": {
@@ -30,21 +30,21 @@
       "__unresolved_9": "cce:/internal/x/cc-fu/physics-2d-box2d"
     },
     "./chunks/34/341ab3341f38daa5d6eb502f45f16e9d150576f5.js": {
-      "__unresolved_0": "./chunks/4f/4f2e72f7413e767051399a59e0c5b0eae9724c57.js",
-      "__unresolved_1": "./chunks/0d/0d9eca4116f8757f1bbb48f022f46a468b7fd9be.js",
-      "__unresolved_2": "./chunks/d6/d61674e0bc7e1f2c5fea41f56d48bcd1770e6e28.js"
+      "__unresolved_0": "./chunks/fd/fd8340b414cab435ae992647e025824ad4316d38.js",
+      "__unresolved_1": "./chunks/f0/f073bcda7f9a59a59b67b6933bce5e201409cac8.js",
+      "__unresolved_2": "./chunks/52/52283ea859a1d0ae4a0db016812be7a2e323adf0.js"
     },
-    "./chunks/d6/d61674e0bc7e1f2c5fea41f56d48bcd1770e6e28.js": {
+    "./chunks/52/52283ea859a1d0ae4a0db016812be7a2e323adf0.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
       "cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js"
     },
-    "./chunks/0d/0d9eca4116f8757f1bbb48f022f46a468b7fd9be.js": {
+    "./chunks/f0/f073bcda7f9a59a59b67b6933bce5e201409cac8.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
-      "__unresolved_1": "./chunks/4f/4f2e72f7413e767051399a59e0c5b0eae9724c57.js",
-      "__unresolved_2": "./chunks/d6/d61674e0bc7e1f2c5fea41f56d48bcd1770e6e28.js",
+      "__unresolved_1": "./chunks/fd/fd8340b414cab435ae992647e025824ad4316d38.js",
+      "__unresolved_2": "./chunks/52/52283ea859a1d0ae4a0db016812be7a2e323adf0.js",
       "cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js"
     },
-    "./chunks/4f/4f2e72f7413e767051399a59e0c5b0eae9724c57.js": {
+    "./chunks/fd/fd8340b414cab435ae992647e025824ad4316d38.js": {
       "cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js"
     }
   }

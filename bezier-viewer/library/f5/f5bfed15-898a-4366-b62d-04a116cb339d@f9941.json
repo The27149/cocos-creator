@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AddCtrlPoint",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 207,
+      "height": 68
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 207,
+      "height": 68
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -103.5,
+        -34,
+        0,
+        103.5,
+        -34,
+        0,
+        -103.5,
+        34,
+        0,
+        103.5,
+        34,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        68,
+        207,
+        68,
+        0,
+        0,
+        207,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -103.5,
+        "y": -34,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 103.5,
+        "y": 34,
+        "z": 0
+      }
+    },
+    "texture": "f5bfed15-898a-4366-b62d-04a116cb339d@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

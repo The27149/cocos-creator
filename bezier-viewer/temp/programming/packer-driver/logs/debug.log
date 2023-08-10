@@ -1,11 +1,11 @@
-debug: Thu, 25 May 2023 07:11:42 GMT
-debug: Project: E:\personal\bezier-viewer
+debug: Thu, 10 Aug 2023 08:44:47 GMT
+debug: Project: E:\work\git\majia\game_993000101
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\3.6.1\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 3.3204999566078186ms.
+debug: Loading cache costs 4.309999942779541ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 2.6215999722480774ms.
+debug: Loading cache costs 3.3217999935150146ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -28,30 +28,30 @@ debug: Reset databases. Enumerated domains: [
   },
   {
     "root": "db://assets/",
-    "physical": "E:\\personal\\bezier-viewer\\assets"
+    "physical": "E:\\work\\git\\majia\\game_993000101\\assets"
   }
 ]
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/3.6.1/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///E:/personal/bezier-viewer/assets/"
+    "db://assets/": "file:///E:/work/git/majia/game_993000101/assets/"
   }
 }
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/3.6.1/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///E:/personal/bezier-viewer/assets/"
+    "db://assets/": "file:///E:/work/git/majia/game_993000101/assets/"
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 7.0295000076293945ms.
+debug: Fetch asset-db cost: 6.6778000593185425ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 3
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -79,29 +79,29 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 01:38:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Feb 25 2023 16:51:22 GMT+0800 (中国标准时间), Current mtime: Thu May 25 2023 15:11:19 GMT+0800 (中国标准时间)
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Aug 09 2023 16:24:26 GMT+0800 (中国标准时间), Current mtime: Thu Aug 10 2023 16:44:35 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/x/cc.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(editor) ends with cost 152.51469999551773ms.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 178.42469990253448ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
@@ -123,145 +123,307 @@ debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external depe
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 01:38:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sat Feb 25 2023 16:51:22 GMT+0800 (中国标准时间), Current mtime: Thu May 25 2023 15:11:19 GMT+0800 (中国标准时间)
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Aug 09 2023 16:24:26 GMT+0800 (中国标准时间), Current mtime: Thu Aug 10 2023 16:44:35 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Point.ts as cce:/internal/x/cc.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(preview) ends with cost 147.07520002126694ms.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 165.93119990825653ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 35.975200057029724ms.
+debug: Fetch asset-db cost: 15.299600005149841ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 3
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(editor) ends with cost 50.63440001010895ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 48.776400089263916ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(preview) ends with cost 47.42519998550415ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 44.79229998588562ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:44:48 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:11 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Detected change: file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts. Last mtime: Fri Feb 10 2023 18:03:12 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu May 25 2023 15:56:06 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
-debug: Inspect file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(editor) ends with cost 450.0178999900818ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts. Last mtime: Wed Aug 09 2023 18:40:25 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e, Current mtime: Thu Aug 10 2023 17:06:43 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 276.27620005607605ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:44:48 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:12 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Detected change: file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts. Last mtime: Fri Feb 10 2023 18:03:12 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu May 25 2023 15:56:06 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
-debug: Inspect file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(preview) ends with cost 243.06959998607635ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts. Last mtime: Wed Aug 09 2023 18:40:25 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e, Current mtime: Thu Aug 10 2023 17:06:43 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 164.64909994602203ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:44:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:48:28 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:48:09 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Detected change: file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts. Last mtime: Thu May 25 2023 15:56:06 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu May 25 2023 15:59:45 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
-debug: Inspect file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(editor) ends with cost 228.4442999958992ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 10:02:40 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:32:39 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 260.4865999221802ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:44:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:48:28 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:48:09 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Detected change: file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts. Last mtime: Thu May 25 2023 15:56:06 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu May 25 2023 15:59:45 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
-debug: Inspect file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(preview) ends with cost 258.959399998188ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 10:02:40 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:32:39 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 308.0954999923706ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:53:08 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:58:58 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Detected change: file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts. Last mtime: Thu May 25 2023 15:59:45 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu May 25 2023 16:04:27 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
-debug: Inspect file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(editor) ends with cost 157.3309000134468ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:32:39 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:41:41 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 264.7761000394821ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:53:08 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:58:58 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts.
-debug: Detected change: file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts. Last mtime: Thu May 25 2023 15:59:45 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu May 25 2023 16:04:27 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
-debug: Inspect file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as cce:/internal/x/cc.
-debug: Resolve ./NodeFactory from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/NodeFactory.ts.
-debug: Resolve ./Point from file:///E:/personal/bezier-viewer/assets/scripts/Paper.ts as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Resolve file:///E:/personal/bezier-viewer/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/bezier-viewer/assets/scripts/Point.ts.
-debug: Target(preview) ends with cost 174.31400001049042ms.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:32:39 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:41:41 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 238.74660003185272ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:58:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:02:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:41:41 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:47:18 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 184.75269997119904ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:58:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:02:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:41:41 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:47:18 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 254.80570006370544ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:02:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:03:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:47:18 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:48:02 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 205.7429999113083ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:02:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:03:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:47:18 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:48:02 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 262.8561999797821ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:03:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:03:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:48:02 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:48:25 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 158.82480001449585ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:03:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:03:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:48:02 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 17:48:25 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 226.40209996700287ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:03:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:21:57 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:48:25 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 18:06:29 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 201.2315000295639ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:03:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:21:57 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts. Last mtime: Thu Aug 10 2023 17:48:25 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301, Current mtime: Thu Aug 10 2023 18:06:29 GMT+0800 (中国标准时间)@bcfd8975-c3c4-4a3f-8a1b-8554b5e8f301
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as cce:/internal/x/cc.
+debug: Resolve ./NodeFactory from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve ./Point from file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 264.23339998722076ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:21:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:35:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts. Last mtime: Thu Aug 10 2023 17:06:43 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e, Current mtime: Thu Aug 10 2023 18:20:25 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(editor) ends with cost 104.93389999866486ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:21:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:35:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/NodeFactory.ts.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Paper.ts.
+debug: Detected change: file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts. Last mtime: Thu Aug 10 2023 17:06:43 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e, Current mtime: Thu Aug 10 2023 18:20:25 GMT+0800 (中国标准时间)@fdfc0cf4-573b-43cd-91ca-0eb57cbe6a7e
+debug: Inspect file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts from cce:/internal/x/prerequisite-imports as file:///E:/work/git/majia/game_993000101/assets/scripts/Point.ts.
+debug: Target(preview) ends with cost 106.41960000991821ms.

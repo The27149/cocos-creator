@@ -5,9 +5,9 @@
     "module": "ES2015",
     "strict": true,
     "types": [
+      "./temp/declarations/jsb",
       "./temp/declarations/cc",
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/jsb",
       "./temp/declarations/cc.env"
     ],
     "paths": {
@@ -15,7 +15,7 @@
         "C:\\ProgramData\\cocos\\editors\\3.6.1\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "E:\\personal\\bezier-viewer\\assets\\*"
+        "E:\\work\\git\\majia\\game_993000101\\assets\\*"
       ]
     },
     "experimentalDecorators": true,
