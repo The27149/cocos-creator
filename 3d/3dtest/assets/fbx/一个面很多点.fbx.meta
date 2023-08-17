@@ -1,0 +1,62 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9fc6262d-9d77-42d9-b9bd-3dd78f7770ec",
+  "files": [],
+  "subMetas": {
+    "9a84c": {
+      "importer": "gltf-mesh",
+      "uuid": "9fc6262d-9d77-42d9-b9bd-3dd78f7770ec@9a84c",
+      "displayName": "",
+      "id": "9a84c",
+      "name": "平面.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0826e": {
+      "importer": "gltf-scene",
+      "uuid": "9fc6262d-9d77-42d9-b9bd-3dd78f7770ec@0826e",
+      "displayName": "",
+      "id": "0826e",
+      "name": "一个面很多点.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "9fc6262d-9d77-42d9-b9bd-3dd78f7770ec@0826e",
+    "assetFinder": {
+      "meshes": [
+        "9fc6262d-9d77-42d9-b9bd-3dd78f7770ec@9a84c"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "9fc6262d-9d77-42d9-b9bd-3dd78f7770ec@0826e"
+      ]
+    }
+  }
+}
