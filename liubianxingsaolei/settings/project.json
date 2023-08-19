@@ -24,7 +24,6 @@
   "excluded-modules": [
     "3D Physics/Builtin"
   ],
-  "preview-port": 7456,
   "design-resolution-width": 1920,
   "design-resolution-height": 1080,
   "fit-width": false,
@@ -36,15 +35,9 @@
     "width": 960,
     "height": 640
   },
-  "clear-simulator-cache": true,
-  "facebook": {
+  "cocos-analytics": {
     "enable": false,
-    "appID": "",
-    "live": {
-      "enable": false
-    },
-    "audience": {
-      "enable": false
-    }
+    "appID": "13798",
+    "appSecret": "959b3ac0037d0f3c2fdce94f8421a9b2"
   }
 }

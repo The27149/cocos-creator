@@ -1,21 +1,13 @@
 {
-  "ver": "2.3.7",
+  "ver": "2.0.0",
   "uuid": "6f6d061c-db76-4bf0-a087-6ecf6cff6b67",
-  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
-  "genMipmaps": false,
-  "packable": true,
-  "width": 1080,
-  "height": 1920,
-  "platformSettings": {},
   "subMetas": {
     "qidong_bg": {
-      "ver": "1.0.6",
+      "ver": "1.0.3",
       "uuid": "7e96cb48-a584-432c-a781-d7d1eaeac4ef",
-      "importer": "sprite-frame",
       "rawTextureUuid": "6f6d061c-db76-4bf0-a087-6ecf6cff6b67",
       "trimType": "auto",
       "trimThreshold": 1,

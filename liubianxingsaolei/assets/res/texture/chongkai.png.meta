@@ -1,21 +1,13 @@
 {
-  "ver": "2.3.7",
+  "ver": "2.0.0",
   "uuid": "0bb9a4b6-9578-4e3a-b2da-2996eaebbf9b",
-  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
-  "genMipmaps": false,
-  "packable": true,
-  "width": 83,
-  "height": 83,
-  "platformSettings": {},
   "subMetas": {
     "chongkai": {
-      "ver": "1.0.6",
+      "ver": "1.0.3",
       "uuid": "5d4d614e-34db-4216-ac04-bf82955a5bdc",
-      "importer": "sprite-frame",
       "rawTextureUuid": "0bb9a4b6-9578-4e3a-b2da-2996eaebbf9b",
       "trimType": "auto",
       "trimThreshold": 1,

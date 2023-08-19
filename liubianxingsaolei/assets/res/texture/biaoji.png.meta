@@ -1,21 +1,13 @@
 {
-  "ver": "2.3.7",
+  "ver": "2.0.0",
   "uuid": "ef7c0b00-a2f7-402e-808a-3ffc4a11210a",
-  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
-  "premultiplyAlpha": false,
-  "genMipmaps": false,
-  "packable": true,
-  "width": 44,
-  "height": 50,
-  "platformSettings": {},
   "subMetas": {
     "biaoji": {
-      "ver": "1.0.6",
+      "ver": "1.0.3",
       "uuid": "b6459f70-d4d9-4857-af8f-985a8b472de6",
-      "importer": "sprite-frame",
       "rawTextureUuid": "ef7c0b00-a2f7-402e-808a-3ffc4a11210a",
       "trimType": "auto",
       "trimThreshold": 1,
