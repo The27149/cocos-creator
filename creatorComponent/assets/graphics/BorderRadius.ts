@@ -3,12 +3,17 @@
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class BorderRadius extends cc.Graphics {
+export default class BorderRadius extends cc.Component {
+
+
 
     @property({ tooltip: '' })
     radius: number = 10;
 
+    private g = null;
+
     onLoad() {
+        this.g = this.node.getComponent(cc.Graphics);
         this.draw();
     }
 
@@ -20,19 +25,19 @@ export default class BorderRadius extends cc.Graphics {
             right = w / 2 - this.radius,
             bottom = -h / 2 + this.radius,
             pi = Math.PI;
-        this.arc(left, top, this.radius, pi, pi / 2);
-        this.arc(right, top, this.radius, pi / 2, 0);
-        this.arc(right, bottom, this.radius, 0, -pi / 2);
-        this.arc(left, bottom, this.radius, -pi / 2, pi);
-        this.moveTo(left, h / 2);
-        this.lineTo(right, h / 2);
-        this.lineTo(w / 2, top);
-        this.lineTo(w / 2, bottom);
-        this.lineTo(right, -h / 2);
-        this.lineTo(left, -h / 2);
-        this.lineTo(-w / 2, bottom);
-        this.lineTo(-w / 2, top);
-        this.fill();
+        this.g.arc(left, top, this.radius, pi, pi / 2);
+        this.g.arc(right, top, this.radius, pi / 2, 0);
+        this.g.arc(right, bottom, this.radius, 0, -pi / 2);
+        this.g.arc(left, bottom, this.radius, -pi / 2, pi);
+        this.g.moveTo(left, h / 2);
+        this.g.lineTo(right, h / 2);
+        this.g.lineTo(w / 2, top);
+        this.g.lineTo(w / 2, bottom);
+        this.g.lineTo(right, -h / 2);
+        this.g.lineTo(left, -h / 2);
+        this.g.lineTo(-w / 2, bottom);
+        this.g.lineTo(-w / 2, top);
+        this.g.fill();
     }
 
 }
