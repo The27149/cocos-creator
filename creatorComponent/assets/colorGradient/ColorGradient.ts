@@ -8,6 +8,9 @@ export default class ColorGradient extends cc.Component {
     @property(cc.Node)
     target: cc.Node = null;
 
+    @property(cc.Label)
+    rateLabel: cc.Label = null;
+
     private color0: cc.Color = cc.Color.GREEN;
     private color1: cc.Color = cc.Color.RED;
     // private color1: cc.Color = cc.color().fromHEX(`#D41C1C`);
@@ -20,11 +23,14 @@ export default class ColorGradient extends cc.Component {
     }
 
     clock() {
-        this.rate += 0.005;
+        this.rate += 0.01;
         this.gradient(this.rate, this.target);
     }
 
     gradient(rate: number, node: cc.Node) {
+        // rate = rate ** 0.5;
+        let str = parseInt((rate * 100).toString());
+        this.rateLabel.string = `${str}%`;
         //方案一： 修改h值渐变
         let h0 = this.color0.toHSV().h,
             h1 = this.color1.toHSV().h;
