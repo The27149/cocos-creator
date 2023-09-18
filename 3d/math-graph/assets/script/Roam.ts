@@ -4,7 +4,7 @@ const { ccclass, property } = _decorator;
 @ccclass('Roam')
 export class Roam extends Component {
 
-    private angleScale: number = 1;
+    private angleScale: number = 0.05;
     private moveScale: number = 1;
     /**动态设置当前欧拉角 */
     private angle: Vec3 = v3();
@@ -21,13 +21,6 @@ export class Roam extends Component {
         input.on(Input.EventType.KEY_DOWN, this.keyDown, this);
     }
 
-    start() {
-
-    }
-
-    update(deltaTime: number) {
-
-    }
     private touchMove(e: EventTouch) {
         // let dx = e.getLocation().x - e.getStartLocation().x,
         //     dy = e.getLocation().y - e.getStartLocation().y;
