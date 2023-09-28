@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "builtin-2d-sprite-mohu-m",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "b4bed523-6f4e-49f0-93ec-c2e31b81a390"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
