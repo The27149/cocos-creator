@@ -13,6 +13,7 @@ CCEffect %{
       properties:
         texture: { value: white }
         alphaThreshold: { value: 0.5 }
+        pos: { value: [0.5, 0.5, 0.25, 1.0]}
 }%
 
 
@@ -58,6 +59,9 @@ CCProgram fs %{
   #include <texture>
 
   in vec4 v_color;
+  uniform circle{
+    vec4  pos;
+  };
 
   #if USE_TEXTURE
   in vec2 v_uv0;
@@ -65,20 +69,29 @@ CCProgram fs %{
   #endif
 
 
+
   void main () {
     vec4 o = vec4(0, 0, 0, 0);
+    bool isBlur = true;
+    // bool isBlur = length(v_uv0.x - 0.5, v_uv0.y - 0.5) < 0.25;
+    
 
     #if USE_TEXTURE
-      float _BlurOffsetX =0.002;
-      float _BlurOffsetY =0.002;
-      vec4 color;
-      for(int i = -2; i <= 2; i++){
-        for(int j = -2; j <= 2; j++){
-          color= texture(texture, v_uv0 + vec2(float(i) * _BlurOffsetX, float(j) * _BlurOffsetY));
-          o+= color;
+
+      if(isBlur){
+        float _BlurOffsetX =0.002;
+        float _BlurOffsetY =0.002;
+        vec4 color;
+        for(int i = -2; i <= 2; i++){
+          for(int j = -2; j <= 2; j++){
+            color= texture(texture, v_uv0 + vec2(float(i) * _BlurOffsetX, float(j) * _BlurOffsetY));
+            o+= color;
+          }
         }
+        o /= float(25);
+      }else{
+        o += texture(texture, v_uv0);
       }
-       o /= float(25);
     #endif
 
     ALPHA_TEST(o);
