@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bnt-shangc",
+    "texture": "8f0a66ab-7c33-4248-85fb-8d674772cd66",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      111,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      111,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

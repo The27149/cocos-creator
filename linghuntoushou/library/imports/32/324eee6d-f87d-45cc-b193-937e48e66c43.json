@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shengyin_kai",
+    "texture": "6ccb45de-a60c-415b-a7e8-1758eaaef67e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      92,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

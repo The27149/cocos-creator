@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lankuang1",
+    "texture": "83e45a17-e24e-4d5f-98ba-eb0e5ea359a2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      489,
+      463
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      489,
+      463
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touyin",
+    "texture": "8049542c-39ec-4444-ac3e-5ec90c05369e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      143,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      143,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

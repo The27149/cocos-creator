@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lanqiu",
+    "texture": "6446e7ae-4780-4a72-bb7d-3ad97d2ea1e9",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      151,
+      150
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      151,
+      151
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

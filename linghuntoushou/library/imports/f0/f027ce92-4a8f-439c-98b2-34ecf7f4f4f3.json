@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mengb",
+    "texture": "d295878f-4a53-4319-82c0-ee90e75cecb7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      188,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      188,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
