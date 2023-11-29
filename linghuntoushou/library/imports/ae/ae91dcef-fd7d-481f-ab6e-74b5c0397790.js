@@ -79,6 +79,7 @@ var Game = /** @class */ (function (_super) {
         this.updateStar(CoinMgr_1.default.ins.getCoin());
         this.starFactory = new NodeFactory_1.NodeFactory().init(this.starPre);
         this.createStar();
+        this.initPickType();
         Module_1.default.get(Settle_1.default).hide();
         EventMgr_1.default.ins.on(Global_1.GEvent.coinChanged, this.onCoinChanged, this);
     };
@@ -113,6 +114,15 @@ var Game = /** @class */ (function (_super) {
         };
         var clock = this.clock = new Clock_1.default();
         clock.init(param).initView(uiParam);
+    };
+    Game.prototype.initPickType = function () {
+        var key = "shopProps";
+        var localData = Global_1.Global.ins.localData.getData(key);
+        var type = 1;
+        if (localData) {
+            type = localData.find(function (item) { return !item.isLock && item.isPick; }).type;
+        }
+        Global_1.Global.ins.shopPickType = type;
     };
     Game.prototype.newGame = function () {
         this.clock.reset();

@@ -21,7 +21,7 @@ export default class Launch extends Module {
     @property(cc.Button)
     shopBtn: cc.Button = null;
 
-    private canStart: boolean = true;
+    private canStart: boolean = false;
 
     protected onLoad(): void {
         this.startBtn.node.on('click', this.onClickStartBtn, this);

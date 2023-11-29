@@ -10,15 +10,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var LocalData_1 = require("../../../script/common/LocalData");
+var Global_1 = require("../../../script/common/Global");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ShopData = /** @class */ (function () {
     function ShopData() {
-        /**本地永久存储副本 */
-        this.localShopData = null;
         /**道具列表 */
         this.props = null;
-        this.key = "props";
+        this.key = "shopProps";
     }
     ShopData_1 = ShopData;
     Object.defineProperty(ShopData, "ins", {
@@ -33,8 +31,7 @@ var ShopData = /** @class */ (function () {
         configurable: true
     });
     ShopData.prototype.init = function () {
-        this.localShopData = new LocalData_1.default("9011301_shop");
-        this.props = this.localShopData.getData(this.key);
+        this.props = Global_1.Global.ins.localData.getData(this.key);
         if (!this.props) {
             this.props = [];
             var config = this.getPropConfig();
@@ -51,7 +48,7 @@ var ShopData = /** @class */ (function () {
         }
     };
     ShopData.prototype.save = function () {
-        this.localShopData.setData(this.key, this.props);
+        Global_1.Global.ins.localData.setData(this.key, this.props);
     };
     ShopData.prototype.getAllProps = function () {
         return this.props;
@@ -68,6 +65,9 @@ var ShopData = /** @class */ (function () {
         var data = this.getData(type);
         data.isPick = state;
         this.save();
+    };
+    ShopData.prototype.getPickType = function () {
+        return this.props.find(function (prop) { return !prop.isLock && prop.isPick; }).type;
     };
     /**自己的商店配置 */
     ShopData.prototype.getPropConfig = function () {

@@ -37,7 +37,7 @@ var Launch = /** @class */ (function (_super) {
         _this.startBtn = null;
         _this.starLabel = null;
         _this.shopBtn = null;
-        _this.canStart = true;
+        _this.canStart = false;
         return _this;
     }
     Launch.prototype.onLoad = function () {

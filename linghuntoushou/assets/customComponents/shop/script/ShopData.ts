@@ -1,4 +1,4 @@
-import LocalData from "../../../script/common/LocalData";
+import { Global } from "../../../script/common/Global";
 
 
 const { ccclass, property } = cc._decorator;
@@ -21,15 +21,13 @@ export default class ShopData {
         return this._ins;
     }
 
-    /**本地永久存储副本 */
-    private localShopData: LocalData = null;
+
     /**道具列表 */
     private props: IPropItem[] = null;
-    private key: string = `props`;
+    private key: string = `shopProps`;
 
     private init() {
-        this.localShopData = new LocalData(`9011301_shop`);
-        this.props = this.localShopData.getData(this.key);
+        this.props = Global.ins.localData.getData(this.key);
         if (!this.props) {
             this.props = [];
             let config = this.getPropConfig();
@@ -46,7 +44,7 @@ export default class ShopData {
     }
 
     private save() {
-        this.localShopData.setData(this.key, this.props);
+        Global.ins.localData.setData(this.key, this.props);
     }
 
     getAllProps() {

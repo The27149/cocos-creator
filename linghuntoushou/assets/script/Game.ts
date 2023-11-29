@@ -1,3 +1,4 @@
+
 import Ball from "./Ball";
 import Basket from "./Basket";
 import Clock, { CLOCK_UIMODE, IClockParam, IClockView } from "./Clock";
@@ -6,7 +7,7 @@ import Launch from "./Launch";
 import Settle from "./Settle";
 import SoundMgr from "./SoundMgr";
 import EventMgr from "./common/EventMgr";
-import { GEvent, SoundPath } from "./common/Global";
+import { GEvent, Global, SoundPath } from "./common/Global";
 import Module from "./common/Module";
 import { NodeFactory } from "./common/NodeFactory";
 import Utils from "./common/Utils";
@@ -70,6 +71,7 @@ export default class Game extends Module {
         this.updateStar(CoinMgr.ins.getCoin());
         this.starFactory = new NodeFactory().init(this.starPre);
         this.createStar();
+        this.initPickType();
         Module.get(Settle).hide();
         EventMgr.ins.on(GEvent.coinChanged, this.onCoinChanged, this);
     }
@@ -109,6 +111,16 @@ export default class Game extends Module {
         }
         let clock = this.clock = new Clock();
         clock.init(param).initView(uiParam);
+    }
+
+    private initPickType() {
+        let key = `shopProps`;
+        let localData = Global.ins.localData.getData(key);
+        let type = 1;
+        if (localData) {
+            type = localData.find(item => !item.isLock && item.isPick).type;
+        }
+        Global.ins.shopPickType = type;
     }
 
     public newGame() {

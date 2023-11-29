@@ -1,4 +1,5 @@
 import SoundMgr from "../../../script/SoundMgr";
+import { Global } from "../../../script/common/Global";
 import Module from "../../../script/common/Module";
 import { NodeFactory } from "../../../script/common/NodeFactory";
 import ShopData from "./ShopData";
