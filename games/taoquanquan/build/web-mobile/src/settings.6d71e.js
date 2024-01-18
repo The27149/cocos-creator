@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default","ball","basket"],collisionMatrix:[[false,false,false],[false,false,true],[false,true,false]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/scene/main.fire",orientation:"",jsList:[],bundleVers:{internal:"d17e2",resources:"9ac18",main:"330cb"}};
