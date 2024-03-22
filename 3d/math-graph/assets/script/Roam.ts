@@ -1,11 +1,16 @@
-import { _decorator, Component, EventKeyboard, EventMouse, EventTouch, Input, input, KeyCode, v3, Vec3 } from 'cc';
+import { _decorator, Component, EventKeyboard, EventMouse, EventTouch, Input, input, KeyCode, NodeSpace, Quat, v3, Vec2, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
+/**
+ * 上下左右转头：鼠标移动
+ * 上下左右移动：w s a d
+ * 前后移动：鼠标滚轮
+ */
 @ccclass('Roam')
 export class Roam extends Component {
 
     private angleScale: number = 0.05;
-    private moveScale: number = 1;
+    private moveScale: number = 0.05;
     /**动态设置当前欧拉角 */
     private angle: Vec3 = v3();
     private worldAngle: Vec3 = v3(0, 0, 1);
@@ -46,16 +51,16 @@ export class Roam extends Component {
         let dir = v3();
         switch (e.keyCode) {
             case KeyCode.KEY_W:
-                dir.set(0, 1, 0);
+                dir.set(0, this.moveScale, 0);
                 break;
             case KeyCode.KEY_A:
-                dir.set(-1, 0, 0);
+                dir.set(-this.moveScale, 0, 0);
                 break;
             case KeyCode.KEY_S:
-                dir.set(0, -1, 0);
+                dir.set(0, -this.moveScale, 0);
                 break;
             case KeyCode.KEY_D:
-                dir.set(1, 0, 0);
+                dir.set(this.moveScale, 0, 0);
                 break;
             case KeyCode.KEY_Q:
                 break;
@@ -70,18 +75,21 @@ export class Roam extends Component {
         let delta = e.getScrollY();
         let dir = v3();
         if (delta > 0) {
-            dir.set(0, 0, -1);
+            dir.set(0, 0, -this.moveScale * 30);
         } else {
-            dir.set(0, 0, 1);
+            dir.set(0, 0, this.moveScale * 30);
         }
         this.move(dir);
     }
 
+    /**四方向转头 */
+    private turn(dir: Vec2) {
+
+    }
+
+    /**六方向移动 */
     private move(dir: Vec3) {
-        // this.node.worldRotation.getEulerAngles(this.worldAngle);
-        // console.log(`worldAngle x y z:`, this.worldAngle.x, this.worldAngle.y, this.worldAngle.z);
-        let pos = dir.normalize().multiplyScalar(this.moveScale).add(this.node.worldPosition);
-        this.node.setWorldPosition(pos);
+        this.node.translate(dir, NodeSpace.LOCAL);
     }
 }
 

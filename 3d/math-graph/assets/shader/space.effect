@@ -4,11 +4,13 @@ CCEffect %{
   techniques:
   - name: opaque
     passes:
-    - vert: legacy/main-functions/general-vs:vert # builtin header
+    # - vert: legacy/main-functions/general-vs:vert # builtin header
+    - vert: vs:vert # builtin header
       frag: unlit-fs:frag
       properties: &props
         mainTexture:    { value: white }
         mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        mainColor2:      { value: [1, 1, 1, 1], editor: { type: color } }
   - name: transparent
     passes:
     - vert: general-vs:vert # builtin header
@@ -23,6 +25,63 @@ CCEffect %{
       properties: *props
 }%
 
+CCProgram vs %{
+  
+  precision highp float;
+  #include <legacy/input-standard>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/local-batch>
+  #include <legacy/input-standard>
+  #include <legacy/fog-vs>
+  #include <legacy/shadow-map-vs>
+
+  in vec4 a_color;
+  #if HAS_SECOND_UV
+    in vec2 a_texCoord1;
+  #endif
+
+  out vec3 v_position;
+  out vec3 v_normal;
+  out vec3 v_tangent;
+  out vec3 v_bitangent;
+  out vec2 v_uv;
+  out vec2 v_uv1;
+  out vec4 v_color;
+
+  vec4 vert () {
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+
+    float distance = pow((pow(In.position.x, 2.0) + pow(In.position.z, 2.0)), 0.5);
+
+    //动态变化
+    In.position.y = sin((distance + cc_time.x) * 5.0) /3.0;
+
+    vec4 pos = matWorld * In.position;
+
+    v_position = pos.xyz;
+    v_normal = normalize((matWorldIT * vec4(In.normal, 0.0)).xyz);
+    v_tangent = normalize((matWorld * vec4(In.tangent.xyz, 0.0)).xyz);
+    v_bitangent = cross(v_normal, v_tangent) * In.tangent.w; // note the cross order
+
+    v_uv = a_texCoord;
+    #if HAS_SECOND_UV
+      v_uv1 = a_texCoord1;
+    #endif
+    v_color = a_color;
+
+    CC_TRANSFER_FOG(pos);
+    CC_TRANSFER_SHADOW(pos);
+    gl_PointSize = 10.0;
+    return cc_matProj * (cc_matView * matWorld) * In.position;
+  }
+
+}%
+
+
 CCProgram unlit-fs %{
   precision highp float;
   #include <legacy/output>
@@ -35,10 +94,18 @@ CCProgram unlit-fs %{
 
   uniform Constant {
     vec4 mainColor;
+    vec4 mainColor2;
   };
 
   vec4 frag () {
-    vec4 col = mainColor * texture(mainTexture, v_uv);
+    // vec4 col = mainColor * texture(mainTexture, v_uv);
+    // if(abs(v_position.z) > 0.5) discard;
+    //颜色随y坐标插值
+    vec4 col = mix(mainColor, mainColor2, sin(v_position.y));
+    // vec4 col = mainColor;
+    // col.x *= sin(v_position.x);
+    // col.y = sin(v_position.y * v_position.x * v_position.z);
+    // col.z *= sin(v_position.z);
     CC_APPLY_FOG(col, v_position);
     return CCFragOutput(col);
   }

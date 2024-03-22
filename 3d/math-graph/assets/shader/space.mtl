@@ -13,7 +13,10 @@
   ],
   "_states": [
     {
-      "rasterizerState": {},
+      "primitive": 0,
+      "rasterizerState": {
+        "lineWidth": 10
+      },
       "depthStencilState": {},
       "blendState": {
         "targets": [
@@ -23,6 +26,21 @@
     }
   ],
   "_props": [
-    {}
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 206,
+        "g": 116,
+        "b": 56,
+        "a": 255
+      },
+      "mainColor2": {
+        "__type__": "cc.Color",
+        "r": 75,
+        "g": 52,
+        "b": 17,
+        "a": 255
+      }
+    }
   ]
 }
