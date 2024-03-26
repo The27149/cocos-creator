@@ -22,17 +22,20 @@ export class Test {
 
     /**定义: 隐函数 */
     private fn(x: number = 0, y: number = 0, z: number = 0): number {
-        // return x ** 2 + y ** 2 + z ** 2;
+        // return x ** 2 + y ** 2 + z ** 2 - 1;
         // return x ** 3 - y;
         // return (x ** 2 + 9 * y ** 2 / 4 + z ** 2 - 1) ** 3 - x ** 2 * z ** 3 - 9 * y ** 2 * z ** 3 / 80;
         // return (x ** 2 + (9 / 4) * y ** 2 + z ** 2 - 1) ** 3 - (9 / 80) * y ** 2 * z ** 3 - x ** 2 * z ** 3
-        // return Math.sin(x) + Math.cos(z);
-        return y;
+        // return Math.sin(x) + Math.cos(z) - y;
+        // return Math.sin(x) - y;
+        // return x + y + z
+        // return x ** 2 + z ** 2       //圆柱
+        return x ** 2 + z ** 2 - y;     //漏斗
 
     }
 
     /**定义: 边界 */
-    private border = 2
+    private border = 10
     private domainX: number[] = [-this.border, this.border];
     private domainY: number[] = [-this.border, this.border];
     private domainZ: number[] = [-this.border, this.border];
@@ -41,7 +44,7 @@ export class Test {
     /**定义: 变量分辨率（单方向指定范围内有多少个测试点） */
     private resolution: number = 100;
     /**定义：单位距离 (以x方向为标准)*/
-    private dx: number = 0.05;
+    private dx: number = 0.1;
     /**定义: 测试比 即测试距离/单位距离 的比例（多少距离判定通过测试）
      * 理论上最高值为0.5 保证每个实际的点只对应分辨率中的点只有唯一一个
      * 也不能太小，不然中有些实际点可能找不到分辨率中的点从而被丢弃
