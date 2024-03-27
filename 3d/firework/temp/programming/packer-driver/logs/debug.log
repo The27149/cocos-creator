@@ -1,0 +1,171 @@
+17:37:33 debug: 2024/3/27下午5:37:33
+17:37:33 debug: Project: E:\personal\git\cocos-creator\3d\firework
+17:37:33 debug: Targets: editor,preview
+17:37:33 debug: Incremental file seems great.
+17:37:33 debug: Engine path: C:\ProgramData\cocos\editors\Creator\Creator\3.8.2\resources\resources\3d\engine
+17:37:33 debug: Initializing target [Editor]
+17:37:33 debug: Loading cache
+17:37:33 debug: Loading cache costs 22.623053073883057ms.
+17:37:33 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+17:37:33 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+17:37:33 debug: Initializing target [Preview]
+17:37:33 debug: Loading cache
+17:37:33 debug: Loading cache costs 22.478568077087402ms.
+17:37:33 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+17:37:33 debug: Sync engine features: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
+17:37:33 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets"
+  }
+]
+17:37:33 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///E:/personal/git/cocos-creator/3d/firework/assets/"
+  }
+}
+17:37:33 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///E:/personal/git/cocos-creator/3d/firework/assets/"
+  }
+}
+17:37:33 debug: Pulling asset-db.
+17:37:33 debug: Fetch asset-db cost: 23.780385971069336ms.
+17:37:33 debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+17:37:33 debug: Target(editor) build started.
+17:37:33 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:45 GMT+0800 (中国标准时间)
+17:37:33 debug: Inspect cce:/internal/x/cc
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+17:37:33 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+17:37:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:07:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:45 GMT+0800 (中国标准时间)
+17:37:33 debug: Inspect cce:/internal/x/prerequisite-imports
+17:37:33 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:37:33 debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
+17:37:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:37:34 debug: Inspect file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:37:34 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:37:34 debug: Inspect file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts
+17:37:34 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+17:37:34 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+17:37:34 debug: Target(editor) ends with cost 1184.5403000116348ms.
+17:37:34 debug: Target(preview) build started.
+17:37:34 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:45 GMT+0800 (中国标准时间)
+17:37:34 debug: Inspect cce:/internal/x/cc
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/wait-for-ammo-instantiation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/wait-for-ammo-instantiation.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+17:37:34 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+17:37:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:07:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:46 GMT+0800 (中国标准时间)
+17:37:34 debug: Inspect cce:/internal/x/prerequisite-imports
+17:37:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:37:34 debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
+17:37:35 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:37:35 debug: Inspect file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:37:35 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:37:35 debug: Inspect file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts
+17:37:35 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+17:37:35 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+17:37:35 debug: Target(preview) ends with cost 1027.6538450717926ms.
+17:37:40 debug: Pulling asset-db.
+17:37:44 debug: Fetch asset-db cost: 3168.983435988426ms.
+17:37:44 debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+17:37:44 debug: Target(editor) build started.
+17:37:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:55 GMT+0800 (中国标准时间)
+17:37:44 debug: Inspect cce:/internal/x/prerequisite-imports
+17:37:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:37:44 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:37:44 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:37:44 debug: Target(editor) ends with cost 284.31833600997925ms.
+17:37:44 debug: Target(preview) build started.
+17:37:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:56 GMT+0800 (中国标准时间)
+17:37:44 debug: Inspect cce:/internal/x/prerequisite-imports
+17:37:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:37:44 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:37:44 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:37:44 debug: Target(preview) ends with cost 270.7934750318527ms.

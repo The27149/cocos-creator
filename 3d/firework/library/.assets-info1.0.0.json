@@ -1,0 +1,104 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\main.scene.meta": {
+      "time": 1711442737364.2168
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\main.scene": {
+      "time": 1711448521450.565,
+      "uuid": "cc081e04-fb47-4872-9fb9-8388d62b6671"
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\src.meta": {
+      "time": 1711442750299.4727
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\src": {
+      "time": 1711442904535.6663,
+      "uuid": "26d315ed-50f1-4521-95f3-6cd54233b4df"
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\shader.meta": {
+      "time": 1711442759867.9016
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\shader": {
+      "time": 1711442869374.6362,
+      "uuid": "05ffdb1b-ab45-463c-897c-747174130ec2"
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\shader\\space.mtl.meta": {
+      "time": 1711367491526.7788
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\shader\\space.effect.meta": {
+      "time": 1711450411918.443
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\shader\\space.mtl": {
+      "time": 1711450712250.4016,
+      "uuid": "18af563d-5f82-434c-97ef-35da637c4fd0"
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\shader\\space.effect": {
+      "time": 1711502076152.0205,
+      "uuid": "2df10476-e5bc-4181-b5de-e267503d9407"
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\src\\Draw.ts.meta": {
+      "time": 1710210456978.214
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\src\\Draw.ts": {
+      "time": 1711450288527.559,
+      "uuid": "7a51e40c-feca-4d12-b407-9e9c49b06671"
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\src\\Roam.ts.meta": {
+      "time": 1693452680403.5151
+    },
+    "E:\\personal\\cocos-creator\\3d\\space-fire\\assets\\src\\Roam.ts": {
+      "time": 1711418363347.3208,
+      "uuid": "b606060b-915b-4d92-b2ee-395022d749a7"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\shader": {
+      "time": 1711531911281.9595,
+      "uuid": "05ffdb1b-ab45-463c-897c-747174130ec2"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\src": {
+      "time": 1711531911313.0408,
+      "uuid": "26d315ed-50f1-4521-95f3-6cd54233b4df"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.effect": {
+      "time": 1711502076152.0205,
+      "uuid": "2df10476-e5bc-4181-b5de-e267503d9407"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\src\\Draw.ts": {
+      "time": 1711450288527.559,
+      "uuid": "7a51e40c-feca-4d12-b407-9e9c49b06671"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\src\\Roam.ts": {
+      "time": 1711418363347.3208,
+      "uuid": "b606060b-915b-4d92-b2ee-395022d749a7"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\shader.meta": {
+      "time": 1711442759867.9016
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\src.meta": {
+      "time": 1711442750299.4727
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\src\\Draw.ts.meta": {
+      "time": 1710210456978.214
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\src\\Roam.ts.meta": {
+      "time": 1693452680403.5151
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.effect.meta": {
+      "time": 1711450411918.443
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\main.scene": {
+      "time": 1711448521450.565,
+      "uuid": "cc081e04-fb47-4872-9fb9-8388d62b6671"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.mtl": {
+      "time": 1711450712250.4016,
+      "uuid": "18af563d-5f82-434c-97ef-35da637c4fd0"
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.mtl.meta": {
+      "time": 1711367491526.7788
+    },
+    "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\main.scene.meta": {
+      "time": 1711442737364.2168
+    }
+  },
+  "missing": {}
+}

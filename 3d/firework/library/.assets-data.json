@@ -1,0 +1,56 @@
+{
+  "cc081e04-fb47-4872-9fb9-8388d62b6671": {
+    "url": "db://assets/main.scene",
+    "value": {
+      "depends": [
+        "cc081e04-fb47-4872-9fb9-8388d62b6671",
+        "18af563d-5f82-434c-97ef-35da637c4fd0",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@38fd2",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "b606060b-915b-4d92-b2ee-395022d749a7",
+        "7a51e40c-feca-4d12-b407-9e9c49b06671"
+      ]
+    },
+    "versionCode": 0
+  },
+  "26d315ed-50f1-4521-95f3-6cd54233b4df": {
+    "url": "db://assets/src",
+    "value": {},
+    "versionCode": 0
+  },
+  "05ffdb1b-ab45-463c-897c-747174130ec2": {
+    "url": "db://assets/shader",
+    "value": {},
+    "versionCode": 0
+  },
+  "18af563d-5f82-434c-97ef-35da637c4fd0": {
+    "url": "db://assets/shader/space.mtl",
+    "value": {
+      "depends": [
+        "2df10476-e5bc-4181-b5de-e267503d9407"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2df10476-e5bc-4181-b5de-e267503d9407": {
+    "url": "db://assets/shader/space.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7a51e40c-feca-4d12-b407-9e9c49b06671": {
+    "url": "db://assets/src/Draw.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b606060b-915b-4d92-b2ee-395022d749a7": {
+    "url": "db://assets/src/Roam.ts",
+    "value": {},
+    "versionCode": 0
+  }
+}
