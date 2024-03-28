@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 45017.39395594597,
+      "mTimestamp": 22936.127454042435,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 55880.479398965836,
+      "mTimestamp": 1449316.271822095,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -928,7 +928,7 @@
     },
     "file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts": {
       "mTimestamp": {
-        "mtime": 1711450288527.559,
+        "mtime": 1711536623937.818,
         "uuid": "7a51e40c-feca-4d12-b407-9e9c49b06671"
       },
       "chunkId": "9aa8085bc805446fc4e8d1b0f83d7945697fc680",

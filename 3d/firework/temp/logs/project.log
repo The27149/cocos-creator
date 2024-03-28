@@ -1,10 +1,10 @@
-2024-3-27 17:36:47 - log: Load engine in C:\ProgramData\cocos\editors\Creator\Creator\3.8.2\resources\resources\3d\engine
-2024-3-27 17:36:48 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\Creator\3.8.2\resources\resources\3d\engine\native
-2024-3-27 17:37:45 - log: [Scene] meshopt wasm decoder initialized
-2024-3-27 17:37:46 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2024-3-27 17:37:47 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2024-3-27 17:37:49 - log: [Scene] [PHYSICS]: using builtin.
-2024-3-27 17:37:49 - log: [Scene] Cocos Creator v3.8.2
-2024-3-27 17:37:49 - info: [Scene] Forward render pipeline initialized.
-2024-3-27 17:37:51 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
-2024-3-27 17:37:51 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-3-27 18:39:22 - log: Load engine in C:\ProgramData\cocos\editors\Creator\Creator\3.8.2\resources\resources\3d\engine
+2024-3-27 18:39:23 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\Creator\3.8.2\resources\resources\3d\engine\native
+2024-3-27 18:39:49 - log: [Scene] meshopt wasm decoder initialized
+2024-3-27 18:39:49 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-3-27 18:39:50 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-3-27 18:39:50 - log: [Scene] [PHYSICS]: using builtin.
+2024-3-27 18:39:51 - log: [Scene] Cocos Creator v3.8.2
+2024-3-27 18:39:51 - info: [Scene] Forward render pipeline initialized.
+2024-3-27 18:39:52 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2024-3-27 18:39:52 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
