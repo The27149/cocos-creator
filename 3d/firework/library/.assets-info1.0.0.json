@@ -98,7 +98,76 @@
     },
     "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\main.scene.meta": {
       "time": 1711442737364.2168
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader": {
+      "time": 1712128102676.487,
+      "uuid": "05ffdb1b-ab45-463c-897c-747174130ec2"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\src": {
+      "time": 1711952266485.1865,
+      "uuid": "26d315ed-50f1-4521-95f3-6cd54233b4df"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.effect": {
+      "time": 1712126329425.2473,
+      "uuid": "2df10476-e5bc-4181-b5de-e267503d9407"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\src\\Draw.ts": {
+      "time": 1712459565327.6465,
+      "uuid": "7a51e40c-feca-4d12-b407-9e9c49b06671"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\src\\Roam.ts": {
+      "time": 1711952266485.1865,
+      "uuid": "b606060b-915b-4d92-b2ee-395022d749a7"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader.meta": {
+      "time": 1711952266483.1821
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\src.meta": {
+      "time": 1711952266484.1838
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\src\\Draw.ts.meta": {
+      "time": 1711952266484.1838
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\src\\Roam.ts.meta": {
+      "time": 1711952266485.1865
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.effect.meta": {
+      "time": 1711952266484.1838
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\main.scene": {
+      "time": 1712140209306.135,
+      "uuid": "cc081e04-fb47-4872-9fb9-8388d62b6671"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.mtl": {
+      "time": 1711952266484.1838,
+      "uuid": "18af563d-5f82-434c-97ef-35da637c4fd0"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\space.mtl.meta": {
+      "time": 1711952266484.1838
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\main.scene.meta": {
+      "time": 1711952266483.1821
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\particle.effect.meta": {
+      "time": 1712462958597.1233
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\particle.effect": {
+      "time": 1712463059412.7957,
+      "uuid": "ba8537ec-fbfa-4b2e-adbf-7763073138b3"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\particle.mtl.meta": {
+      "time": 1712128102690.523
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\particle.mtl": {
+      "time": 1712128567445.9402,
+      "uuid": "e1c25973-46ec-4ab4-a97b-d9c5d013d88a"
     }
   },
-  "missing": {}
+  "missing": {
+    "ba8537ec-fbfa-4b2e-adbf-7763073138b3": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\shader\\partice.effect",
+      "time": 1712126329425.2473,
+      "removeTime": 1712126508341
+    }
+  }
 }

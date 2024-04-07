@@ -1,0 +1,45 @@
+{
+  "__type__": "cc.Material",
+  "_name": "particle",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "ba8537ec-fbfa-4b2e-adbf-7763073138b3",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {}
+  ],
+  "_states": [
+    {
+      "primitive": 0,
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 238,
+        "g": 179,
+        "b": 179,
+        "a": 255
+      },
+      "mainColor2": {
+        "__type__": "cc.Color",
+        "r": 151,
+        "g": 195,
+        "b": 95,
+        "a": 255
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 22936.127454042435,
+      "mTimestamp": 75031.68489400111,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,11 +640,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1449316.271822095,
+      "mTimestamp": 506873225.032085,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
-          "value": "file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -653,35 +653,35 @@
             },
             "end": {
               "line": 5,
-              "column": 175
+              "column": 167
             }
           }
         },
         {
-          "value": "file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts",
+          "value": "file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 5,
-              "column": 191
+              "column": 183
             },
             "end": {
               "line": 5,
-              "column": 261
+              "column": 249
             }
           }
         },
         {
-          "value": "file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts",
+          "value": "file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 277
+              "column": 265
             },
             "end": {
               "line": 5,
-              "column": 347
+              "column": 331
             }
           }
         }
@@ -691,21 +691,21 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts"
+            "url": "file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts"
+            "url": "file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts"
           },
           "messages": []
         }
@@ -713,7 +713,7 @@
     },
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
       "mTimestamp": {
-        "mtime": 1708912236533.0837,
+        "mtime": 1711941611801.9043,
         "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
       },
       "chunkId": "dd8ffe4b66ab421921fe26a7524871e3101b074e",
@@ -984,6 +984,110 @@
         "uuid": "b606060b-915b-4d92-b2ee-395022d749a7"
       },
       "chunkId": "039b048546284508efd8e0e71467301c20e38959",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 152
+            },
+            "end": {
+              "line": 1,
+              "column": 156
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts": {
+      "mTimestamp": {
+        "mtime": 1712459565327.6465,
+        "uuid": "7a51e40c-feca-4d12-b407-9e9c49b06671"
+      },
+      "chunkId": "f5b52e6a85c48d544ed27662fbbe2a382987c344",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 102
+            },
+            "end": {
+              "line": 1,
+              "column": 106
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts": {
+      "mTimestamp": {
+        "mtime": 1711952266485.1865,
+        "uuid": "b606060b-915b-4d92-b2ee-395022d749a7"
+      },
+      "chunkId": "68e259ffbd87548a7d4f9d0ce7d433e0e3987f15",
       "imports": [
         {
           "value": "cc"

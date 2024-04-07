@@ -1,193 +1,929 @@
-18:39:46 debug: 2024/3/27下午6:39:46
-18:39:46 debug: Project: E:\personal\git\cocos-creator\3d\firework
-18:39:46 debug: Targets: editor,preview
-18:39:46 debug: Incremental file seems great.
-18:39:46 debug: Engine path: C:\ProgramData\cocos\editors\Creator\Creator\3.8.2\resources\resources\3d\engine
-18:39:47 debug: Initializing target [Editor]
-18:39:47 debug: Loading cache
-18:39:47 debug: Loading cache costs 1.4467889070510864ms.
-18:39:47 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
-18:39:47 debug: Our import map(foo:/bar): {
+14:27:11 debug: 2024/4/1下午2:27:11
+14:27:11 debug: Project: E:\cary\git\cocos-creator\3d\firework
+14:27:11 debug: Targets: editor,preview
+14:27:11 debug: Incremental file seems great.
+14:27:11 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+14:27:11 debug: Initializing target [Editor]
+14:27:11 debug: Loading cache
+14:27:12 debug: Loading cache costs 17.551055999472737ms.
+14:27:12 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+14:27:12 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-18:39:47 debug: Initializing target [Preview]
-18:39:47 debug: Loading cache
-18:39:47 debug: Loading cache costs 2.7471539974212646ms.
-18:39:47 debug: Our import map(foo:/bar): {
+14:27:12 debug: Initializing target [Preview]
+14:27:12 debug: Loading cache
+14:27:12 debug: Loading cache costs 15.463780000805855ms.
+14:27:12 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-18:39:47 debug: Sync engine features: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
-18:39:47 debug: Reset databases. Enumerated domains: [
+14:27:12 debug: Sync engine features: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
+14:27:12 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
-    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
   },
   {
     "root": "db://assets/",
-    "physical": "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets"
+    "physical": "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets"
   }
 ]
-18:39:47 debug: Our import map(foo:/bar): {
+14:27:12 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
-    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///E:/personal/git/cocos-creator/3d/firework/assets/"
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///E:/cary/git/cocos-creator/3d/firework/assets/"
   }
 }
-18:39:47 debug: Our import map(foo:/bar): {
+14:27:12 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
-    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///E:/personal/git/cocos-creator/3d/firework/assets/"
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///E:/cary/git/cocos-creator/3d/firework/assets/"
   }
 }
-18:39:47 debug: Pulling asset-db.
-18:39:47 debug: Fetch asset-db cost: 20.72099006175995ms.
-18:39:47 debug: Build iteration starts.
+14:27:12 debug: Pulling asset-db.
+14:27:12 debug: Fetch asset-db cost: 15.674203999340534ms.
+14:27:12 debug: Build iteration starts.
 Number of accumulated asset changes: 3
 Feature changed: false
-18:39:47 debug: Target(editor) build started.
-18:39:47 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
-18:39:47 debug: Inspect cce:/internal/x/cc
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-18:39:47 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
-18:39:47 debug: Inspect cce:/internal/x/prerequisite-imports
-18:39:47 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-18:39:47 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
-18:39:47 debug: Target(editor) ends with cost 220.76966905593872ms.
-18:39:47 debug: Target(preview) build started.
-18:39:47 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
-18:39:47 debug: Inspect cce:/internal/x/cc
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/wait-for-ammo-instantiation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/wait-for-ammo-instantiation.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-18:39:47 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-18:39:47 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
-18:39:47 debug: Inspect cce:/internal/x/prerequisite-imports
-18:39:47 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-18:39:47 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
-18:39:47 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
-18:39:47 debug: Target(preview) ends with cost 193.89255094528198ms.
-18:39:47 debug: Pulling asset-db.
-18:39:48 debug: Fetch asset-db cost: 1233.099377989769ms.
-18:39:48 debug: Build iteration starts.
+14:27:12 debug: Target(editor) build started.
+14:27:12 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:15 GMT+0800 (中国标准时间)
+14:27:12 debug: Inspect cce:/internal/x/cc
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+14:27:12 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+14:27:12 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:15 GMT+0800 (中国标准时间)
+14:27:12 debug: Inspect cce:/internal/x/prerequisite-imports
+14:27:12 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:27:12 debug: Detected change: file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts. Last mtime: Mon Feb 26 2024 09:50:36 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594, Current mtime: Mon Apr 01 2024 11:20:11 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594
+14:27:12 debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
+14:27:12 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:27:12 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:27:12 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:27:12 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+14:27:12 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+14:27:12 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+14:27:12 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+14:27:12 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+14:27:12 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+14:27:12 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+14:27:13 debug: Target(editor) ends with cost 974.1696590017527ms.
+14:27:13 debug: Target(preview) build started.
+14:27:13 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:15 GMT+0800 (中国标准时间)
+14:27:13 debug: Inspect cce:/internal/x/cc
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/wait-for-ammo-instantiation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/wait-for-ammo-instantiation.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+14:27:13 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+14:27:13 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:16 GMT+0800 (中国标准时间)
+14:27:13 debug: Inspect cce:/internal/x/prerequisite-imports
+14:27:13 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:27:13 debug: Detected change: file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts. Last mtime: Mon Feb 26 2024 09:50:36 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594, Current mtime: Mon Apr 01 2024 11:20:11 GMT+0800 (中国标准时间)@b2bd1fa7-8d7c-49c5-a158-df29a6d3a594
+14:27:13 debug: Inspect file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
+14:27:13 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+14:27:13 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+14:27:13 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+14:27:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts as cce:/internal/x/cc.
+14:27:14 debug: Target(preview) ends with cost 918.6316400002688ms.
+14:27:18 debug: Pulling asset-db.
+14:27:20 debug: Fetch asset-db cost: 1409.2796250004321ms.
+14:27:20 debug: Build iteration starts.
 Number of accumulated asset changes: 3
 Feature changed: false
-18:39:48 debug: Target(editor) build started.
-18:39:48 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:24 GMT+0800 (中国标准时间)
-18:39:48 debug: Inspect cce:/internal/x/prerequisite-imports
-18:39:49 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-18:39:49 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
-18:39:49 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
-18:39:49 debug: Target(editor) ends with cost 72.59013092517853ms.
-18:39:49 debug: Target(preview) build started.
-18:39:49 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:24 GMT+0800 (中国标准时间)
-18:39:49 debug: Inspect cce:/internal/x/prerequisite-imports
-18:39:49 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-18:39:49 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
-18:39:49 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
-18:39:49 debug: Target(preview) ends with cost 92.58481693267822ms.
-19:03:33 debug: Dispatch build request for time accumulated 1 asset changes.
-19:03:33 debug: Build iteration starts.
+14:27:20 debug: Target(editor) build started.
+14:27:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:23 GMT+0800 (中国标准时间)
+14:27:20 debug: Inspect cce:/internal/x/prerequisite-imports
+14:27:20 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:27:20 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+14:27:20 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+14:27:20 debug: Target(editor) ends with cost 116.48113899864256ms.
+14:27:20 debug: Target(preview) build started.
+14:27:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:23 GMT+0800 (中国标准时间)
+14:27:20 debug: Inspect cce:/internal/x/prerequisite-imports
+14:27:20 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:27:20 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+14:27:20 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+14:27:20 debug: Target(preview) ends with cost 101.83530000038445ms.
+15:15:28 debug: Dispatch build request for time accumulated 1 asset changes.
+15:15:28 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
-19:03:33 debug: Target(editor) build started.
-19:03:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:24 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间)
-19:03:33 debug: Inspect cce:/internal/x/prerequisite-imports
-19:03:33 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:03:33 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
-19:03:33 debug: Detected change: file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Tue Mar 26 2024 18:51:28 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Mar 27 2024 18:50:23 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
-19:03:33 debug: Inspect file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts
-19:03:33 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-19:03:33 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-19:03:33 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-19:03:33 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
-19:03:33 debug: Target(editor) ends with cost 174.2513200044632ms.
-19:03:33 debug: Target(preview) build started.
-19:03:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:24 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间)
-19:03:33 debug: Inspect cce:/internal/x/prerequisite-imports
-19:03:33 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-19:03:33 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts.
-19:03:33 debug: Detected change: file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Tue Mar 26 2024 18:51:28 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Mar 27 2024 18:50:23 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
-19:03:33 debug: Inspect file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts
-19:03:33 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-19:03:33 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-19:03:33 debug: Resolve cc from file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
-19:03:33 debug: Resolve file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/personal/git/cocos-creator/3d/firework/assets/src/Roam.ts.
-19:03:33 debug: Target(preview) ends with cost 308.52538990974426ms.
+15:15:28 debug: Target(editor) build started.
+15:15:28 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:23 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 08:49:31 GMT+0800 (中国标准时间)
+15:15:28 debug: Inspect cce:/internal/x/prerequisite-imports
+15:15:28 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:15:28 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+15:15:28 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Mon Apr 01 2024 14:17:46 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 15:15:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+15:15:28 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+15:15:29 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:15:29 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:15:29 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:15:29 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+15:15:29 debug: Target(editor) ends with cost 1073.5676230192184ms.
+15:15:29 debug: Target(preview) build started.
+15:15:29 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:23 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 08:49:32 GMT+0800 (中国标准时间)
+15:15:29 debug: Inspect cce:/internal/x/prerequisite-imports
+15:15:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:15:29 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+15:15:29 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Mon Apr 01 2024 14:17:46 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 15:15:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+15:15:29 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+15:15:30 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:15:30 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:15:30 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:15:30 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+15:15:30 debug: Target(preview) ends with cost 1190.7925199866295ms.
+15:16:31 debug: Dispatch build request for time accumulated 1 asset changes.
+15:16:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:16:31 debug: Target(editor) build started.
+15:16:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 08:49:31 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 08:50:34 GMT+0800 (中国标准时间)
+15:16:31 debug: Inspect cce:/internal/x/prerequisite-imports
+15:16:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:16:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+15:16:31 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 15:15:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 15:16:30 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+15:16:31 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+15:16:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:16:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:16:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:16:32 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+15:16:32 debug: Target(editor) ends with cost 487.7592549920082ms.
+15:16:32 debug: Target(preview) build started.
+15:16:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 08:49:32 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 08:50:35 GMT+0800 (中国标准时间)
+15:16:32 debug: Inspect cce:/internal/x/prerequisite-imports
+15:16:32 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:16:32 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+15:16:32 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 15:15:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 15:16:30 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+15:16:32 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+15:16:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:16:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:16:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+15:16:32 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+15:16:33 debug: Target(preview) ends with cost 777.15119099617ms.
+17:28:51 debug: Dispatch build request for time accumulated 1 asset changes.
+17:28:51 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:28:51 debug: Target(editor) build started.
+17:28:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 08:50:34 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:02:54 GMT+0800 (中国标准时间)
+17:28:51 debug: Inspect cce:/internal/x/prerequisite-imports
+17:28:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:28:51 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:28:51 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 15:16:30 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:28:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:28:51 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:28:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:28:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:28:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:28:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:28:52 debug: Target(editor) ends with cost 222.32323297858238ms.
+17:28:52 debug: Target(preview) build started.
+17:28:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 08:50:35 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:02:55 GMT+0800 (中国标准时间)
+17:28:52 debug: Inspect cce:/internal/x/prerequisite-imports
+17:28:52 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:28:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:28:52 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 15:16:30 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:28:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:28:52 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:28:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:28:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:28:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:28:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:28:52 debug: Target(preview) ends with cost 921.610552996397ms.
+17:37:24 debug: Dispatch build request for time accumulated 1 asset changes.
+17:37:24 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:37:24 debug: Target(editor) build started.
+17:37:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:02:54 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:11:27 GMT+0800 (中国标准时间)
+17:37:24 debug: Inspect cce:/internal/x/prerequisite-imports
+17:37:24 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:37:24 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:37:24 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:28:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:37:22 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:37:24 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:37:24 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:24 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:24 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:24 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:37:24 debug: Target(editor) ends with cost 532.5438050031662ms.
+17:37:24 debug: Target(preview) build started.
+17:37:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:02:55 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:11:27 GMT+0800 (中国标准时间)
+17:37:24 debug: Inspect cce:/internal/x/prerequisite-imports
+17:37:24 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:37:24 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:37:24 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:28:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:37:22 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:37:24 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:37:25 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:25 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:25 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:37:25 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:37:25 debug: Target(preview) ends with cost 1112.8981040120125ms.
+17:39:34 debug: Dispatch build request for time accumulated 1 asset changes.
+17:39:34 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:39:34 debug: Target(editor) build started.
+17:39:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:11:27 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:13:37 GMT+0800 (中国标准时间)
+17:39:34 debug: Inspect cce:/internal/x/prerequisite-imports
+17:39:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:39:34 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:39:34 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:37:22 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:39:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:39:34 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:39:34 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:39:34 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:39:34 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:39:34 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:39:34 debug: Target(editor) ends with cost 725.3993580043316ms.
+17:39:34 debug: Target(preview) build started.
+17:39:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:11:27 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:13:37 GMT+0800 (中国标准时间)
+17:39:34 debug: Inspect cce:/internal/x/prerequisite-imports
+17:39:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:39:34 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:39:34 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:37:22 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:39:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:39:34 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:39:35 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:39:35 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:39:35 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:39:35 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:39:35 debug: Target(preview) ends with cost 960.01691198349ms.
+17:44:33 debug: Dispatch build request for time accumulated 1 asset changes.
+17:44:33 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:44:33 debug: Target(editor) build started.
+17:44:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:13:37 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:18:36 GMT+0800 (中国标准时间)
+17:44:33 debug: Inspect cce:/internal/x/prerequisite-imports
+17:44:33 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:44:33 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:44:33 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:39:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:44:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:44:33 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:44:33 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:44:33 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:44:33 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:44:33 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:44:33 debug: Target(editor) ends with cost 492.3401100039482ms.
+17:44:33 debug: Target(preview) build started.
+17:44:33 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:13:37 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:18:36 GMT+0800 (中国标准时间)
+17:44:33 debug: Inspect cce:/internal/x/prerequisite-imports
+17:44:34 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:44:34 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:44:34 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:39:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:44:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:44:34 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:44:34 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:44:34 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:44:34 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:44:34 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:44:34 debug: Target(preview) ends with cost 680.9338389933109ms.
+17:45:30 debug: Dispatch build request for time accumulated 1 asset changes.
+17:45:30 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:45:30 debug: Target(editor) build started.
+17:45:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:18:36 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:19:33 GMT+0800 (中国标准时间)
+17:45:30 debug: Inspect cce:/internal/x/prerequisite-imports
+17:45:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:45:30 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:45:30 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:44:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:45:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:45:30 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:45:30 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:45:30 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:45:30 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:45:30 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:45:30 debug: Target(editor) ends with cost 534.7896260023117ms.
+17:45:30 debug: Target(preview) build started.
+17:45:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:18:36 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:19:33 GMT+0800 (中国标准时间)
+17:45:30 debug: Inspect cce:/internal/x/prerequisite-imports
+17:45:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:45:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:45:31 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:44:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:45:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:45:31 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:45:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:45:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:45:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:45:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:45:31 debug: Target(preview) ends with cost 622.351451009512ms.
+17:54:34 debug: Dispatch build request for time accumulated 1 asset changes.
+17:54:34 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:54:34 debug: Target(editor) build started.
+17:54:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:19:33 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:28:37 GMT+0800 (中国标准时间)
+17:54:34 debug: Inspect cce:/internal/x/prerequisite-imports
+17:54:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:54:35 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:54:35 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:45:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:54:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:54:35 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:54:36 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:54:36 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:54:36 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:54:36 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:54:37 debug: Target(editor) ends with cost 2618.3810209929943ms.
+17:54:37 debug: Target(preview) build started.
+17:54:37 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:19:33 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:28:40 GMT+0800 (中国标准时间)
+17:54:37 debug: Inspect cce:/internal/x/prerequisite-imports
+17:54:37 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:54:37 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:54:37 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:45:26 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:54:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:54:37 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:54:39 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:54:39 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:54:39 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:54:39 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:54:40 debug: Target(preview) ends with cost 2713.7780080139637ms.
+17:57:52 debug: Dispatch build request for time accumulated 1 asset changes.
+17:57:52 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:57:52 debug: Target(editor) build started.
+17:57:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:28:37 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:31:55 GMT+0800 (中国标准时间)
+17:57:52 debug: Inspect cce:/internal/x/prerequisite-imports
+17:57:52 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:57:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:57:52 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:54:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:57:50 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:57:52 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:57:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:57:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:57:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:57:53 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:57:53 debug: Target(editor) ends with cost 573.5121070146561ms.
+17:57:53 debug: Target(preview) build started.
+17:57:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:28:40 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:31:56 GMT+0800 (中国标准时间)
+17:57:53 debug: Inspect cce:/internal/x/prerequisite-imports
+17:57:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:57:53 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:57:53 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:54:31 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:57:50 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:57:53 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:57:54 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:57:54 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:57:54 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:57:54 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:57:55 debug: Target(preview) ends with cost 2285.233385026455ms.
+17:58:51 debug: Dispatch build request for time accumulated 1 asset changes.
+17:58:51 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:58:51 debug: Target(editor) build started.
+17:58:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:31:55 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:32:54 GMT+0800 (中国标准时间)
+17:58:51 debug: Inspect cce:/internal/x/prerequisite-imports
+17:58:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:58:51 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:58:51 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:57:50 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:58:49 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:58:51 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:58:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:58:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:58:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:58:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:58:52 debug: Target(editor) ends with cost 902.1065250039101ms.
+17:58:52 debug: Target(preview) build started.
+17:58:52 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:31:56 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 11:32:55 GMT+0800 (中国标准时间)
+17:58:52 debug: Inspect cce:/internal/x/prerequisite-imports
+17:58:52 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:58:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+17:58:52 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:57:50 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 17:58:49 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+17:58:52 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+17:58:53 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:58:53 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:58:53 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+17:58:53 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+17:58:53 debug: Target(preview) ends with cost 955.5572689771652ms.
+18:36:05 debug: Dispatch build request for time accumulated 1 asset changes.
+18:36:05 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+18:36:05 debug: Target(editor) build started.
+18:36:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:32:54 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:10:08 GMT+0800 (中国标准时间)
+18:36:05 debug: Inspect cce:/internal/x/prerequisite-imports
+18:36:06 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:36:06 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+18:36:06 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:58:49 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 18:35:56 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+18:36:06 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+18:36:06 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:36:06 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:36:06 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:36:06 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+18:36:06 debug: Target(editor) ends with cost 908.1283510029316ms.
+18:36:06 debug: Target(preview) build started.
+18:36:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 11:32:55 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:10:09 GMT+0800 (中国标准时间)
+18:36:06 debug: Inspect cce:/internal/x/prerequisite-imports
+18:36:07 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:36:07 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+18:36:07 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 17:58:49 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 18:35:56 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+18:36:07 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+18:36:07 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:36:07 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:36:07 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:36:07 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+18:36:08 debug: Target(preview) ends with cost 1330.5022989809513ms.
+18:39:42 debug: Dispatch build request for time accumulated 1 asset changes.
+18:39:42 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+18:39:42 debug: Target(editor) build started.
+18:39:42 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:10:08 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:13:45 GMT+0800 (中国标准时间)
+18:39:42 debug: Inspect cce:/internal/x/prerequisite-imports
+18:39:42 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:39:42 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+18:39:42 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 18:35:56 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 18:38:58 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+18:39:42 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+18:39:43 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:39:43 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:39:43 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:39:43 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+18:39:44 debug: Target(editor) ends with cost 1974.1459020078182ms.
+18:39:44 debug: Target(preview) build started.
+18:39:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:10:09 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:13:47 GMT+0800 (中国标准时间)
+18:39:44 debug: Inspect cce:/internal/x/prerequisite-imports
+18:39:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:39:44 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+18:39:44 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 18:35:56 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 18:38:58 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+18:39:44 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+18:39:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:39:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:39:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:39:45 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+18:39:46 debug: Target(preview) ends with cost 1781.994350016117ms.
+18:40:12 debug: Dispatch build request for time accumulated 1 asset changes.
+18:40:12 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+18:40:12 debug: Target(editor) build started.
+18:40:12 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:13:45 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:14:15 GMT+0800 (中国标准时间)
+18:40:12 debug: Inspect cce:/internal/x/prerequisite-imports
+18:40:12 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:40:12 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+18:40:12 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 18:38:58 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 18:40:10 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+18:40:12 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+18:40:12 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:40:12 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:40:12 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:40:12 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+18:40:12 debug: Target(editor) ends with cost 695.381375014782ms.
+18:40:12 debug: Target(preview) build started.
+18:40:12 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:13:47 GMT+0800 (中国标准时间), Current mtime: Sat Jan 03 1970 12:14:15 GMT+0800 (中国标准时间)
+18:40:12 debug: Inspect cce:/internal/x/prerequisite-imports
+18:40:13 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:40:13 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+18:40:13 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 18:38:58 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Wed Apr 03 2024 18:40:10 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+18:40:13 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+18:40:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:40:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:40:13 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+18:40:13 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+18:40:14 debug: Target(preview) ends with cost 1173.7083739936352ms.
+09:44:06 debug: Dispatch build request for time accumulated 1 asset changes.
+09:44:06 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+09:44:06 debug: Target(editor) build started.
+09:44:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:14:15 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 03:18:09 GMT+0800 (中国标准时间)
+09:44:06 debug: Inspect cce:/internal/x/prerequisite-imports
+09:44:06 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:44:06 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+09:44:06 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 18:40:10 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 09:44:02 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+09:44:06 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+09:44:06 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:44:06 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:44:06 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:44:06 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+09:44:06 debug: Target(editor) ends with cost 679.6630490422249ms.
+09:44:06 debug: Target(preview) build started.
+09:44:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 03 1970 12:14:15 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 03:18:09 GMT+0800 (中国标准时间)
+09:44:06 debug: Inspect cce:/internal/x/prerequisite-imports
+09:44:06 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:44:06 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+09:44:06 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Wed Apr 03 2024 18:40:10 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 09:44:02 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+09:44:06 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+09:44:07 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:44:07 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:44:07 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:44:07 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+09:44:07 debug: Target(preview) ends with cost 873.345754981041ms.
+09:57:43 debug: Dispatch build request for time accumulated 1 asset changes.
+09:57:43 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+09:57:43 debug: Target(editor) build started.
+09:57:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 03:18:09 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 03:31:46 GMT+0800 (中国标准时间)
+09:57:43 debug: Inspect cce:/internal/x/prerequisite-imports
+09:57:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:57:44 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+09:57:44 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 09:44:02 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 09:57:39 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+09:57:44 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+09:57:44 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:57:44 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:57:44 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:57:44 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+09:57:44 debug: Target(editor) ends with cost 494.9132049679756ms.
+09:57:44 debug: Target(preview) build started.
+09:57:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 03:18:09 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 03:31:47 GMT+0800 (中国标准时间)
+09:57:44 debug: Inspect cce:/internal/x/prerequisite-imports
+09:57:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:57:44 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+09:57:44 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 09:44:02 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 09:57:39 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+09:57:44 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+09:57:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:57:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:57:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+09:57:45 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+09:57:45 debug: Target(preview) ends with cost 743.7853249907494ms.
+10:12:42 debug: Dispatch build request for time accumulated 1 asset changes.
+10:12:42 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:12:42 debug: Target(editor) build started.
+10:12:42 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 03:31:46 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 03:46:45 GMT+0800 (中国标准时间)
+10:12:42 debug: Inspect cce:/internal/x/prerequisite-imports
+10:12:42 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:12:42 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:12:42 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 09:57:39 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:12:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:12:42 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:12:42 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:12:42 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:12:42 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:12:42 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:12:42 debug: Target(editor) ends with cost 375.7217579483986ms.
+10:12:42 debug: Target(preview) build started.
+10:12:42 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 03:31:47 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 03:46:45 GMT+0800 (中国标准时间)
+10:12:42 debug: Inspect cce:/internal/x/prerequisite-imports
+10:12:42 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:12:42 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:12:42 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 09:57:39 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:12:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:12:42 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:12:43 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:12:43 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:12:43 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:12:43 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:12:43 debug: Target(preview) ends with cost 726.4306330084801ms.
+10:34:21 debug: Dispatch build request for time accumulated 1 asset changes.
+10:34:21 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:34:21 debug: Target(editor) build started.
+10:34:21 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 03:46:45 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:08:24 GMT+0800 (中国标准时间)
+10:34:21 debug: Inspect cce:/internal/x/prerequisite-imports
+10:34:21 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:34:21 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:34:21 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:12:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:34:19 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:34:21 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:34:21 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:21 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:21 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:21 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:34:22 debug: Target(editor) ends with cost 439.64864003658295ms.
+10:34:22 debug: Target(preview) build started.
+10:34:22 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 03:46:45 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:08:25 GMT+0800 (中国标准时间)
+10:34:22 debug: Inspect cce:/internal/x/prerequisite-imports
+10:34:22 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:34:22 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:34:22 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:12:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:34:19 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:34:22 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:34:22 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:22 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:22 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:22 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:34:23 debug: Target(preview) ends with cost 1159.9725959897041ms.
+10:34:56 debug: Dispatch build request for time accumulated 1 asset changes.
+10:34:56 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:34:56 debug: Target(editor) build started.
+10:34:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:08:24 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:08:59 GMT+0800 (中国标准时间)
+10:34:56 debug: Inspect cce:/internal/x/prerequisite-imports
+10:34:56 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:34:56 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:34:56 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:34:19 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:34:51 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:34:56 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:34:57 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:57 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:57 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:57 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:34:57 debug: Target(editor) ends with cost 566.1351259946823ms.
+10:34:57 debug: Target(preview) build started.
+10:34:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:08:25 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:09:00 GMT+0800 (中国标准时间)
+10:34:57 debug: Inspect cce:/internal/x/prerequisite-imports
+10:34:57 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:34:57 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:34:57 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:34:19 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:34:51 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:34:57 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:34:57 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:57 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:57 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:34:57 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:34:58 debug: Target(preview) ends with cost 835.8678830265999ms.
+10:37:38 debug: Dispatch build request for time accumulated 1 asset changes.
+10:37:38 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:37:38 debug: Target(editor) build started.
+10:37:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:08:59 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:11:41 GMT+0800 (中国标准时间)
+10:37:38 debug: Inspect cce:/internal/x/prerequisite-imports
+10:37:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:37:38 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:37:38 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:34:51 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:37:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:37:38 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:37:38 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:37:38 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:37:38 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:37:38 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:37:39 debug: Target(editor) ends with cost 840.7895860075951ms.
+10:37:39 debug: Target(preview) build started.
+10:37:39 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:09:00 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:11:42 GMT+0800 (中国标准时间)
+10:37:39 debug: Inspect cce:/internal/x/prerequisite-imports
+10:37:39 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:37:39 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:37:39 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:34:51 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:37:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:37:39 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:37:40 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:37:40 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:37:40 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:37:40 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:37:40 debug: Target(preview) ends with cost 1139.2525659799576ms.
+10:40:43 debug: Dispatch build request for time accumulated 1 asset changes.
+10:40:43 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:40:43 debug: Target(editor) build started.
+10:40:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:11:41 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:14:46 GMT+0800 (中国标准时间)
+10:40:43 debug: Inspect cce:/internal/x/prerequisite-imports
+10:40:43 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:40:43 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:40:43 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:37:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:40:40 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:40:43 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:40:44 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:40:44 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:40:44 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:40:44 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:40:44 debug: Target(editor) ends with cost 712.5435820221901ms.
+10:40:44 debug: Target(preview) build started.
+10:40:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:11:42 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:14:47 GMT+0800 (中国标准时间)
+10:40:44 debug: Inspect cce:/internal/x/prerequisite-imports
+10:40:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:40:44 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:40:44 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:37:34 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:40:40 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:40:44 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:40:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:40:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:40:45 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:40:45 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:40:45 debug: Target(preview) ends with cost 1614.9463490247726ms.
+10:41:30 debug: Dispatch build request for time accumulated 1 asset changes.
+10:41:30 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:41:30 debug: Target(editor) build started.
+10:41:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:14:46 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:15:34 GMT+0800 (中国标准时间)
+10:41:30 debug: Inspect cce:/internal/x/prerequisite-imports
+10:41:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:41:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:41:31 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:40:40 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:41:28 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:41:31 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:41:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:41:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:41:31 debug: Target(editor) ends with cost 939.4345790147781ms.
+10:41:31 debug: Target(preview) build started.
+10:41:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:14:47 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:15:34 GMT+0800 (中国标准时间)
+10:41:31 debug: Inspect cce:/internal/x/prerequisite-imports
+10:41:32 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:41:32 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:41:32 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:40:40 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:41:28 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:41:32 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:41:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:41:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:41:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:41:32 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:41:33 debug: Target(preview) ends with cost 1180.2470500469208ms.
+10:42:51 debug: Dispatch build request for time accumulated 1 asset changes.
+10:42:51 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:42:51 debug: Target(editor) build started.
+10:42:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:15:34 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:16:54 GMT+0800 (中国标准时间)
+10:42:51 debug: Inspect cce:/internal/x/prerequisite-imports
+10:42:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:42:51 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:42:51 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:41:28 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:42:48 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:42:51 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:42:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:42:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:42:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:42:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:42:53 debug: Target(editor) ends with cost 1474.755599975586ms.
+10:42:53 debug: Target(preview) build started.
+10:42:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:15:34 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:16:56 GMT+0800 (中国标准时间)
+10:42:53 debug: Inspect cce:/internal/x/prerequisite-imports
+10:42:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:42:53 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:42:53 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:41:28 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:42:48 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:42:53 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:42:53 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:42:53 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:42:53 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:42:53 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:42:54 debug: Target(preview) ends with cost 1458.6266060471535ms.
+10:43:50 debug: Dispatch build request for time accumulated 1 asset changes.
+10:43:50 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:43:50 debug: Target(editor) build started.
+10:43:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:16:54 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:17:53 GMT+0800 (中国标准时间)
+10:43:50 debug: Inspect cce:/internal/x/prerequisite-imports
+10:43:50 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:43:50 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:43:50 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:42:48 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:43:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:43:50 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:43:50 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:43:50 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:43:50 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:43:50 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:43:51 debug: Target(editor) ends with cost 674.5411030054092ms.
+10:43:51 debug: Target(preview) build started.
+10:43:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:16:56 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:17:54 GMT+0800 (中国标准时间)
+10:43:51 debug: Inspect cce:/internal/x/prerequisite-imports
+10:43:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:43:51 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:43:51 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:42:48 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:43:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:43:51 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:43:51 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:43:51 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:43:51 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:43:51 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:43:52 debug: Target(preview) ends with cost 972.7689299583435ms.
+10:44:30 debug: Dispatch build request for time accumulated 1 asset changes.
+10:44:30 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:44:30 debug: Target(editor) build started.
+10:44:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:17:53 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:18:33 GMT+0800 (中国标准时间)
+10:44:30 debug: Inspect cce:/internal/x/prerequisite-imports
+10:44:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:44:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:44:31 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:43:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:44:27 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:44:31 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:44:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:44:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:44:31 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:44:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:44:31 debug: Target(editor) ends with cost 500.86569797992706ms.
+10:44:31 debug: Target(preview) build started.
+10:44:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:17:54 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:18:34 GMT+0800 (中国标准时间)
+10:44:31 debug: Inspect cce:/internal/x/prerequisite-imports
+10:44:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:44:31 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:44:31 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:43:47 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:44:27 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:44:31 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:44:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:44:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:44:32 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:44:32 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:44:32 debug: Target(preview) ends with cost 858.9132490158081ms.
+10:51:17 debug: Dispatch build request for time accumulated 1 asset changes.
+10:51:17 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:51:17 debug: Target(editor) build started.
+10:51:17 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:18:33 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:25:20 GMT+0800 (中国标准时间)
+10:51:17 debug: Inspect cce:/internal/x/prerequisite-imports
+10:51:17 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:51:17 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:51:17 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:44:27 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:45:53 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:51:17 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:51:17 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:51:17 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:51:17 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:51:17 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:51:17 debug: Target(editor) ends with cost 514.4695969820023ms.
+10:51:17 debug: Target(preview) build started.
+10:51:17 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:18:34 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:25:20 GMT+0800 (中国标准时间)
+10:51:17 debug: Inspect cce:/internal/x/prerequisite-imports
+10:51:17 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:51:17 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+10:51:17 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:44:27 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 10:45:53 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+10:51:17 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+10:51:18 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:51:18 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:51:18 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+10:51:18 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+10:51:18 debug: Target(preview) ends with cost 803.9231079816818ms.
+11:12:01 debug: Dispatch build request for time accumulated 1 asset changes.
+11:12:01 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+11:12:01 debug: Target(editor) build started.
+11:12:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:25:20 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:46:04 GMT+0800 (中国标准时间)
+11:12:01 debug: Inspect cce:/internal/x/prerequisite-imports
+11:12:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:12:01 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+11:12:01 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:45:53 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 11:11:44 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+11:12:01 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+11:12:01 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:12:01 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:12:01 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:12:01 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+11:12:02 debug: Target(editor) ends with cost 509.5144379734993ms.
+11:12:02 debug: Target(preview) build started.
+11:12:02 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:25:20 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:46:05 GMT+0800 (中国标准时间)
+11:12:02 debug: Inspect cce:/internal/x/prerequisite-imports
+11:12:02 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:12:02 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+11:12:02 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 10:45:53 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 11:11:44 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+11:12:02 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+11:12:02 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:12:02 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:12:02 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:12:02 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+11:12:02 debug: Target(preview) ends with cost 665.3566039800644ms.
+11:13:50 debug: Dispatch build request for time accumulated 1 asset changes.
+11:13:50 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+11:13:50 debug: Target(editor) build started.
+11:13:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:46:04 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:47:53 GMT+0800 (中国标准时间)
+11:13:50 debug: Inspect cce:/internal/x/prerequisite-imports
+11:13:50 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:13:50 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+11:13:50 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 11:11:44 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 11:12:45 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+11:13:50 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+11:13:50 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:13:50 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:13:50 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:13:50 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+11:13:50 debug: Target(editor) ends with cost 751.700002014637ms.
+11:13:50 debug: Target(preview) build started.
+11:13:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 04:46:05 GMT+0800 (中国标准时间), Current mtime: Wed Jan 07 1970 04:47:53 GMT+0800 (中国标准时间)
+11:13:50 debug: Inspect cce:/internal/x/prerequisite-imports
+11:13:51 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+11:13:51 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts.
+11:13:51 debug: Detected change: file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts. Last mtime: Sun Apr 07 2024 11:11:44 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671, Current mtime: Sun Apr 07 2024 11:12:45 GMT+0800 (中国标准时间)@7a51e40c-feca-4d12-b407-9e9c49b06671
+11:13:51 debug: Inspect file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts
+11:13:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:13:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:13:52 debug: Resolve cc from file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Draw.ts as cce:/internal/x/cc.
+11:13:52 debug: Resolve file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts from cce:/internal/x/prerequisite-imports as file:///E:/cary/git/cocos-creator/3d/firework/assets/src/Roam.ts.
+11:13:52 debug: Target(preview) ends with cost 1924.6515269875526ms.

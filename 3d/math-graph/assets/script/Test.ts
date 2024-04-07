@@ -29,10 +29,15 @@ export class Test {
 
     /**定义： 参数方程 */
     private ft(t: number): Vec3 {
+        const cos = Math.cos;
+        const sin = Math.sin;
         let p = v3();
-        p.x = 2 * Math.cos(t);
-        p.y = t / 5;
-        p.z = 2 * Math.sin(t);
+        // p.x = 2 * Math.cos(t);
+        // p.y = t / 5;
+        // p.z = 2 * Math.sin(t);
+        p.x = t;
+        p.y = sin(8 * t + 2) + sin(5 * t) + 2 * sin(3 * t - 3) + sin(t);
+        p.z = 0;
         return p;
     }
     /**参数t范围 */

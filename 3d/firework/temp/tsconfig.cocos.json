@@ -6,16 +6,16 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/cc",
       "./temp/declarations/jsb",
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "E:\\personal\\git\\cocos-creator\\3d\\firework\\assets\\*"
+        "E:\\cary\\git\\cocos-creator\\3d\\firework\\assets\\*"
       ]
     },
     "experimentalDecorators": true,

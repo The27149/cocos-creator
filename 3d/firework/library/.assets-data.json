@@ -4,7 +4,7 @@
     "value": {
       "depends": [
         "cc081e04-fb47-4872-9fb9-8388d62b6671",
-        "18af563d-5f82-434c-97ef-35da637c4fd0",
+        "e1c25973-46ec-4ab4-a97b-d9c5d013d88a",
         "620b6bf3-0369-4560-837f-2a2c00b73c26",
         "1263d74c-8167-4928-91a6-4e2672411f47@38fd2",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -51,6 +51,22 @@
   "b606060b-915b-4d92-b2ee-395022d749a7": {
     "url": "db://assets/src/Roam.ts",
     "value": {},
+    "versionCode": 0
+  },
+  "ba8537ec-fbfa-4b2e-adbf-7763073138b3": {
+    "url": "db://assets/shader/particle.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "e1c25973-46ec-4ab4-a97b-d9c5d013d88a": {
+    "url": "db://assets/shader/particle.mtl",
+    "value": {
+      "depends": [
+        "ba8537ec-fbfa-4b2e-adbf-7763073138b3"
+      ]
+    },
     "versionCode": 0
   }
 }
