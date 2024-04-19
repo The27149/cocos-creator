@@ -10,7 +10,7 @@ enum ResolutionMode {
 /**计算顶点的方式 */
 enum FuncMode {
     xyz,    //隐函数模式 
-    t       //参数模式
+    param       //参数模式
 }
 
 @ccclass('test')
@@ -25,18 +25,18 @@ export class Test {
         return this._ins;
     }
 
-    private curFuncMode: FuncMode = FuncMode.t;
+    private curFuncMode: FuncMode = FuncMode.param;
 
     /**定义： 参数方程 */
     private ft(t: number): Vec3 {
         const cos = Math.cos;
         const sin = Math.sin;
         let p = v3();
-        // p.x = 2 * Math.cos(t);
+        // p.x = 2 * cos(t);
         // p.y = t / 5;
-        // p.z = 2 * Math.sin(t);
+        // p.z = 2 * sin(t);
         p.x = t;
-        p.y = sin(8 * t + 2) + sin(5 * t) + 2 * sin(3 * t - 3) + sin(t);
+        p.y = sin(100 * t);
         p.z = 0;
         return p;
     }
@@ -78,6 +78,7 @@ export class Test {
     private testRate: number = 0.5;
     /**单位测试距离 */
     private df: number = 1;
+    private v3: () => Vec3 = null;
 
 
 
@@ -85,7 +86,56 @@ export class Test {
     private validIndices: number[] = [];
 
     private init() {
+        this.updateFn(FuncMode.param, `2 * cos(t)`, `t / 5`, `2 * sin(t)`)
         this.calcPoints(this.curFuncMode);
+    }
+
+    /**字符串创建函数体 */
+    public updateFn(type: FuncMode, fxyz: string);
+    public updateFn(type: FuncMode, xt: string, yt?: string, zt?: string);
+    public updateFn(type: FuncMode, ...fns: string[]) {
+        this.curFuncMode = type;
+        if (type === FuncMode.xyz) {
+            const fxyz = this.preFnString(fns[0]);
+            const body = `return ${fxyz}`;
+            this.fxyz = new Function(`x`, `y`, `z`, body) as () => number;
+            if (typeof this.fxyz(0, 0, 0) !== `number`) {
+                console.log(`隐函数表达式错误！！`, this.fxyz.toString());
+            }
+        };
+        if (type === FuncMode.param) {
+            const xt = this.preFnString(fns[0]),
+                yt = this.preFnString(fns[1]),
+                zt = this.preFnString(fns[2]);
+            this.v3 = v3;
+            const body = `
+                let p = this.v3();
+                p.x = ${xt} || 0;
+                p.y = ${yt} || 0;
+                p.z = ${zt} || 0;
+                return p;
+                `;
+            this.ft = new Function(`t`, body) as () => Vec3;
+            const test = this.ft(0);
+            if (typeof test.x !== 'number' || typeof test.y !== `number` || typeof test.z !== `number`) {
+                console.log(`参数表达式错误！！`, this.ft.toString());
+            }
+        }
+    }
+
+    /**预处理函数字符串 */
+    private preFnString(str: string): string {
+        if (!str) return str;
+        const map: Map<string, string> = new Map([
+            [`sin`, `Math.sin`],
+            [`cos`, `Math.cos`],
+            [`pi`, `Math.PI`],
+        ]);
+        map.forEach((val, key) => {
+            const reg = new RegExp(`${key}`, `ig`);
+            str = str.replace(reg, val)
+        })
+        return str;
     }
 
     /**计算点 */
@@ -96,7 +146,7 @@ export class Test {
             case FuncMode.xyz:
                 this.calcPointsByXYZ();
                 break;
-            case FuncMode.t:
+            case FuncMode.param:
                 this.calcPointsByT();
                 break;
         }

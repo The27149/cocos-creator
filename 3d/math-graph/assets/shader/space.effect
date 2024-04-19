@@ -75,7 +75,7 @@ CCProgram vs %{
 
     CC_TRANSFER_FOG(pos);
     CC_TRANSFER_SHADOW(pos);
-    gl_PointSize = 2.0;
+    gl_PointSize = 1.0;
     return cc_matProj * (cc_matView * matWorld) * In.position;
   }
 
