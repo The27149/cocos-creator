@@ -86,7 +86,7 @@ export class Test {
     private validIndices: number[] = [];
 
     private init() {
-        this.updateFn(FuncMode.param, `2 * cos(t)`, `t / 5`, `2 * sin(t)`)
+        this.updateFn(FuncMode.param, `t`, `2 * sin(t) + sin(3 * t) + sin(5 * t) + sin(7 * t)`, `0`)
         this.calcPoints(this.curFuncMode);
     }
 
