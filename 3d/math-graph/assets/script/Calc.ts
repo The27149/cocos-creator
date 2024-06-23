@@ -8,18 +8,18 @@ enum ResolutionMode {
 }
 
 /**计算顶点的方式 */
-enum FuncMode {
+export enum FuncMode {
     xyz,    //隐函数模式 
     param       //参数模式
 }
 
-@ccclass('test')
-export class Test {
+@ccclass('Calc')
+export class Calc {
     private constructor() { }
-    private static _ins: Test = null;
-    public static get ins(): Test {
+    private static _ins: Calc = null;
+    public static get ins(): Calc {
         if (!this._ins) {
-            this._ins = new Test();
+            this._ins = new Calc();
             this._ins.init();
         }
         return this._ins;
@@ -78,16 +78,16 @@ export class Test {
     private testRate: number = 0.5;
     /**单位测试距离 */
     private df: number = 1;
+
+    /**字符串函数中需要引用 */
     private v3: () => Vec3 = null;
-
-
 
     private validPoints: number[] = [];
     private validIndices: number[] = [];
 
     private init() {
-        this.updateFn(FuncMode.param, `t`, `2 * sin(t) + sin(3 * t) + sin(5 * t) + sin(7 * t)`, `0`)
-        this.calcPoints(this.curFuncMode);
+        this.v3 = v3;
+        // this.updateFn(FuncMode.param, `t`, `2 * sin(t) + sin(3 * t) + sin(5 * t) + sin(7 * t)`, `0`)
     }
 
     /**字符串创建函数体 */
@@ -95,32 +95,42 @@ export class Test {
     public updateFn(type: FuncMode, xt: string, yt?: string, zt?: string);
     public updateFn(type: FuncMode, ...fns: string[]) {
         this.curFuncMode = type;
-        if (type === FuncMode.xyz) {
-            const fxyz = this.preFnString(fns[0]);
-            const body = `return ${fxyz}`;
-            this.fxyz = new Function(`x`, `y`, `z`, body) as () => number;
-            if (typeof this.fxyz(0, 0, 0) !== `number`) {
-                console.log(`隐函数表达式错误！！`, this.fxyz.toString());
-            }
-        };
-        if (type === FuncMode.param) {
-            const xt = this.preFnString(fns[0]),
-                yt = this.preFnString(fns[1]),
-                zt = this.preFnString(fns[2]);
-            this.v3 = v3;
-            const body = `
-                let p = this.v3();
-                p.x = ${xt} || 0;
-                p.y = ${yt} || 0;
-                p.z = ${zt} || 0;
-                return p;
-                `;
-            this.ft = new Function(`t`, body) as () => Vec3;
-            const test = this.ft(0);
-            if (typeof test.x !== 'number' || typeof test.y !== `number` || typeof test.z !== `number`) {
-                console.log(`参数表达式错误！！`, this.ft.toString());
-            }
+        let body = ``;
+        switch (type) {
+            case FuncMode.xyz:
+                const fxyz = this.preFnString(fns[0]);
+                body = `return ${fxyz}`;
+                this.fxyz = new Function(`x`, `y`, `z`, body) as () => number;
+                if (typeof this.fxyz(0, 0, 0) !== `number`) {
+                    console.log(`隐函数表达式错误！！`, this.fxyz.toString());
+                    return;
+                }
+                break;
+            case FuncMode.param:
+                const xt = this.preFnString(fns[0]),
+                    yt = this.preFnString(fns[1]),
+                    zt = this.preFnString(fns[2]);
+                body = `
+                    let p = this.v3();
+                    p.x = ${xt} || 0;
+                    p.y = ${yt} || 0;
+                    p.z = ${zt} || 0;
+                    return p;
+                    `;
+                this.ft = new Function(`t`, body) as () => Vec3;
+                try {
+                    const test = this.ft(0);
+                    if (typeof test.x !== 'number' || typeof test.y !== `number` || typeof test.z !== `number`) {
+                        console.log(`参数表达式错误！！`, this.ft.toString());
+                        return
+                    }
+                } catch (error) {
+                    console.log(`参数表达式错误！！`, this.ft.toString());
+                    return
+                }
+                break;
         }
+        this.calcPoints();
     }
 
     /**预处理函数字符串 */
@@ -139,10 +149,10 @@ export class Test {
     }
 
     /**计算点 */
-    private calcPoints(mode: FuncMode = FuncMode.xyz) {
+    private calcPoints() {
         this.validIndices.length = 0;
         this.validPoints.length = 0;
-        switch (mode) {
+        switch (this.curFuncMode) {
             case FuncMode.xyz:
                 this.calcPointsByXYZ();
                 break;
@@ -152,7 +162,7 @@ export class Test {
         }
     }
 
-    /**计算所有有效的点 */
+    /**隐函数计算点 */
     private calcPointsByXYZ() {
         if (this.resolutionMode === ResolutionMode.numFixed) {
             this.dx = (this.domainX[1] - this.domainX[0]) / this.resolution;
@@ -183,6 +193,7 @@ export class Test {
         console.timeEnd(`calc:`)
     }
 
+    /**参数方程计算点 */
     private calcPointsByT() {
         const min = this.tRange[0],
             max = this.tRange[1],
