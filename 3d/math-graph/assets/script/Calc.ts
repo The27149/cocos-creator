@@ -13,6 +13,14 @@ export enum FuncMode {
     param       //参数模式
 }
 
+/**定义一个参数 */
+export class Param {
+    name: string = ``;
+    min: number = 0;
+    max: number = 0;
+    step: number = 0.01;
+}
+
 @ccclass('Calc')
 export class Calc {
     private constructor() { }
@@ -28,22 +36,21 @@ export class Calc {
     private curFuncMode: FuncMode = FuncMode.param;
 
     /**定义： 参数方程 */
-    private ft(t: number): Vec3 {
+    private fuvw(u: number, v?: number, w?: number): Vec3 {
         const cos = Math.cos;
         const sin = Math.sin;
         let p = v3();
         // p.x = 2 * cos(t);
         // p.y = t / 5;
         // p.z = 2 * sin(t);
-        p.x = t;
-        p.y = sin(100 * t);
+        p.x = u;
+        p.y = sin(100 * u);
         p.z = 0;
         return p;
     }
-    /**参数t范围 */
-    private tRange: number[] = [-20, 20];
-    /**参数t变化量 */
-    private dt: number = 0.01;
+
+    /**参数列表 */
+    public paramList: Param[] = [];
 
 
     /**定义: 隐函数 */
@@ -87,6 +94,12 @@ export class Calc {
 
     private init() {
         this.v3 = v3;
+        let paramT = new Param();
+        paramT.name = `t`;
+        paramT.min = 0;
+        paramT.max = 10;
+        paramT.step = 0.01;
+        this.paramList.push(paramT);
         // this.updateFn(FuncMode.param, `t`, `2 * sin(t) + sin(3 * t) + sin(5 * t) + sin(7 * t)`, `0`)
     }
 
@@ -117,20 +130,25 @@ export class Calc {
                     p.z = ${zt} || 0;
                     return p;
                     `;
-                this.ft = new Function(`t`, body) as () => Vec3;
+                this.fuvw = new Function(`u`, `v`, `w`, body) as () => Vec3;
                 try {
-                    const test = this.ft(0);
+                    const test = this.fuvw(0);
                     if (typeof test.x !== 'number' || typeof test.y !== `number` || typeof test.z !== `number`) {
-                        console.log(`参数表达式错误！！`, this.ft.toString());
+                        console.log(`参数表达式错误！！`, this.fuvw.toString());
                         return
                     }
                 } catch (error) {
-                    console.log(`参数表达式错误！！`, this.ft.toString());
+                    console.log(`参数表达式错误！！`, this.fuvw.toString());
                     return
                 }
                 break;
         }
-        this.calcPoints();
+    }
+
+    /**更新参数设置 */
+    public updateParams(...params: Param[]) {
+        this.paramList.length = 0;
+        this.paramList.push(...params);
     }
 
     /**预处理函数字符串 */
@@ -149,7 +167,7 @@ export class Calc {
     }
 
     /**计算点 */
-    private calcPoints() {
+    public calcPoints() {
         this.validIndices.length = 0;
         this.validPoints.length = 0;
         switch (this.curFuncMode) {
@@ -195,19 +213,25 @@ export class Calc {
 
     /**参数方程计算点 */
     private calcPointsByT() {
-        const min = this.tRange[0],
-            max = this.tRange[1],
-            dt = this.dt;
+        let pu = this.paramList[0] || new Param();
+        let pv = this.paramList[1] || new Param();
+        let pw = this.paramList[2] || new Param();
+        console.log(`实参：`, pv.step)
         let count = 0;
-        for (let t = min; t < max; t += dt) {
-            let p = this.ft(t);
-            let start = count * 3;
-            this.validPoints[start] = p.x;
-            this.validPoints[start + 1] = p.y;
-            this.validPoints[start + 2] = p.z;
-            this.validIndices[count] = count;
-            count++;
+        for (let w = pw.min; w <= pw.max; w += pw.step) {
+            for (let v = pv.min; v <= pv.max; v += pv.step) {
+                for (let u = pu.min; u <= pu.max; u += pu.step) {
+                    let p = this.fuvw(u, v, w);
+                    let start = count * 3;
+                    this.validPoints[start] = p.x;
+                    this.validPoints[start + 1] = p.y;
+                    this.validPoints[start + 2] = p.z;
+                    this.validIndices[count] = count;
+                    count++;
+                }
+            }
         }
+
     }
 
     public getPoints(): number[] {
