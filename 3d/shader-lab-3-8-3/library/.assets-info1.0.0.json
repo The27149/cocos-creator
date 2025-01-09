@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scene.scene.meta": {
+      "time": 1736319991973.214
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scene.scene": {
+      "time": 1736332989668.7144,
+      "uuid": "67be270f-c216-4cff-b915-1cf156eb1691"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects.meta": {
+      "time": 1736320180010.1917
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects": {
+      "time": 1736320908451.1086,
+      "uuid": "426007f8-b488-4ce5-bad6-64312b64d789"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\textures.meta": {
+      "time": 1736320103964.511
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\textures": {
+      "time": 1736320105927.0334,
+      "uuid": "d0d6464b-989f-4bac-893d-7d23f58ddf19"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\textures\\girl.jpeg.meta": {
+      "time": 1736320132569.5393
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\textures\\girl.jpeg": {
+      "time": 1736320078755.7104,
+      "uuid": "08996fbb-8f59-4c30-bc99-8fd58a53297c"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials.meta": {
+      "time": 1736320194071.7954
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials": {
+      "time": 1736320913605.7234,
+      "uuid": "6aebde8e-a4a1-4f8d-a64e-78ef90ea7cee"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\ui-sprite-material.mtl.meta": {
+      "time": 1736320852482.4846
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\ui-sprite-material.mtl": {
+      "time": 1732615328215.1433,
+      "uuid": "bfa8d454-97e1-4ebf-a113-12334350cd1c"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-sprite.effect.meta": {
+      "time": 1736320897871.1926
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-sprite.effect": {
+      "time": 1732615328946.926,
+      "uuid": "433c0ddc-8923-4b00-be41-f97bb5991238"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-sprite-chip.effect.meta": {
+      "time": 1736328798737.346
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-sprite-chip.effect": {
+      "time": 1736332245363.495,
+      "uuid": "c2818a0f-8ab1-4e91-b897-9c0ee5972ebb"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\ui-sprite-material-chip.mtl.meta": {
+      "time": 1736320902869.701
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\ui-sprite-material-chip.mtl": {
+      "time": 1736322124975.3142,
+      "uuid": "f3e94faf-91c3-496e-8de4-85aa90a37ced"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scripts.meta": {
+      "time": 1736331859364.8982
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scripts": {
+      "time": 1736331870129.6316,
+      "uuid": "48f4b74d-f95c-4cac-91c2-2ba9432469c9"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scripts\\chip.meta": {
+      "time": 1736331870137.611
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scripts\\chip": {
+      "time": 1736331881094.839,
+      "uuid": "877ebc53-8e6e-4001-8b37-5da7be2489e9"
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scripts\\chip\\Chip.ts.meta": {
+      "time": 1736331881103.5918
+    },
+    "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\scripts\\chip\\Chip.ts": {
+      "time": 1736332237358.35,
+      "uuid": "a4471b62-2c8e-4fe0-b5ec-d1a48ad399f9"
+    }
+  },
+  "missing": {
+    "08996fbb-8f59-4c30-bc99-8fd58a53297c": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\texture\\girl.jpeg",
+      "time": 1736320078755.7104,
+      "removeTime": 1736320183116
+    },
+    "d0d6464b-989f-4bac-893d-7d23f58ddf19": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\texture",
+      "time": 1736320105927.0334,
+      "removeTime": 1736320183116
+    },
+    "f4641fda-d7f0-4fb2-95ed-c079ca9abed2": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-standard-chip.effect",
+      "time": 1732615328898.1,
+      "removeTime": 1736320875667
+    },
+    "eac27a5a-2c6e-4c0b-b704-43092b5c5d1f": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\standard-material-chip.mtl",
+      "time": 1736320616285.3872,
+      "removeTime": 1736320871298
+    },
+    "a7a9c955-badd-41eb-a1d0-2bee37a2327f": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\standard-material.mtl",
+      "time": 1732615328165.9827,
+      "removeTime": 1736320871298
+    },
+    "e190263f-26de-41af-b8d3-594031f980e7": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\default-material.mtl",
+      "time": 1732615328114.254,
+      "removeTime": 1736320871298
+    },
+    "a9f4ebe2-cc63-4b22-9874-16bbd717ff8a": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\glass.effect",
+      "time": 1732615328840.3413,
+      "removeTime": 1736320875674
+    },
+    "c2ecbffe-bab6-40b1-9c3a-372dab6e5f8b": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\water.effect",
+      "time": 1732615328885.8264,
+      "removeTime": 1736320875678
+    },
+    "79d7da75-ad94-4e3b-bbc8-5f62e3bd58b6": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-standard.effect",
+      "time": 1732615328898.1,
+      "removeTime": 1736320875694
+    },
+    "c2818a0f-8ab1-4e91-b897-9c0ee5972ebb": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\effects\\builtin-sprite-001.effect",
+      "time": 1732615328946.926,
+      "removeTime": 1736320908452
+    },
+    "f3e94faf-91c3-496e-8de4-85aa90a37ced": {
+      "path": "E:\\cary\\git\\cocos-creator\\3d\\shader-lab-3-8-3\\assets\\materials\\ui-sprite-material-001.mtl",
+      "time": 1732615328215.1433,
+      "removeTime": 1736320913606
+    }
+  }
+}

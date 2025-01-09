@@ -33,7 +33,7 @@ CCProgram page-vs %{
     out vec2 v_uv;
     out vec3 v_position;
 
-    vec3 vert(){
+    vec4 vert(){
       vec4 pos;
       CCVertInput(pos);
       // pos = cc_matProj * (cc_matView * matWorld) * pos;
