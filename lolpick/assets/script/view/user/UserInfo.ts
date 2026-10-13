@@ -70,7 +70,9 @@ export class UserInfo extends Component {
         EBEventMgr.ins.removeEvent(EventName.updateUser, this.onUpdateUser, this);
     }
 
-    private init() {
+    private async init() {
+        //初始化前 尝试加载旧数据
+        await UserMgr.ins.loadData();
         // this.deleteBtn.node.active = false;
         // this.updateBtn.node.active = false;
         this.UserEditorNode.active = false;
@@ -132,9 +134,9 @@ export class UserInfo extends Component {
     private onGoFightBtn() {
         const user = this.selectedItem?.user;
         if(!user) return;
-        // this.waitingArea.addPlayer(user);
+        this.waitingArea.addPlayer(user);
         //test
-        UserMgr.ins.userList.forEach(item => this.waitingArea.addPlayer(item))
+        // UserMgr.ins.userList.forEach(item => this.waitingArea.addPlayer(item))
     }
 
     private onClickItem(item: UserInfoItem) {
